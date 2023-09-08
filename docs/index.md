@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Jonatan Fontanez 6.1040 Portfolio"
-  text: "TODO: Subtitle"
+  text: "Static site"
   tagline: "TODO: Tagline"
   actions:
     - theme: brand
