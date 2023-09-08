@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Jonatan Fontanez 6.1040 Portfolio"
   text: "Static site"
-  tagline: "TODO: Tagline"
+  tagline: "Storing project info"
   actions:
     - theme: brand
       text: Template Repository
