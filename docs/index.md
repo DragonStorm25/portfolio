@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "TODO: Title"
+  name: "Jonatan Fontanez 6.1040 Portfolio"
   text: "TODO: Subtitle"
   tagline: "TODO: Tagline"
   actions:
