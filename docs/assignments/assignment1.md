@@ -41,7 +41,7 @@ Interview a middle-aged person
         - Agreeing with it because it agreed or did not disagree with known facts
 
 ### Summary
-	
+The first intervieww used social media primarily as a communication tool. They have limited trust in the truthfulness of the information presented online, likely due to growing up from a very young age with the technology and the exposure to 
 
 ## Interview 2 (Middle-aged person)
 
