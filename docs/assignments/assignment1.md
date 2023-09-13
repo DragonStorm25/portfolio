@@ -7,7 +7,7 @@ layout: doc
 
 ## Planning
 
-### Hunch/Theme
+### Theme
 Misinformation is a huge problem in most forms of modern social media. How might I design a social media app that focuses on misinformation and disincentives it?
 
 ### Questions
