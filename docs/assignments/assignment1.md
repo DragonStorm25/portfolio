@@ -60,5 +60,6 @@ The second interviewee used social media primarily as an information gathering t
 
 ## Design Opportunities
 - Let users know if a post contains misinformation, along with information about why it is incorrect. This would reduce the spread of misinformation primarily within the app and reduce the spread of misinformation when speaking in real life as a secondary effect. 
-- Let users gives feedback on the information contained in a post
+- Let users gives feedback on the truthfulness of information contained in a post. This would allow users who know a post is true to also let other users know the post is true, and vice verse for posts that are false. 
+- Prioritize showing users more truthful information in some cases, such as news, medical posts, and recipes. This would reduce the amount of posts that users see where the misinformation could be harmful to themselves or others, while still allowing comedic posts and memes to be unaffected. 
 
