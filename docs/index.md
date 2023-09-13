@@ -8,8 +8,8 @@ hero:
   tagline: "Storing project info"
   actions:
     - theme: brand
-      text: Template Repository
-      link: "https://github.com/61040-fa23/vitepress-template"
+      text: Repository
+      link: "https://github.com/61040-fa23/portfolio-DragonStorm25"
     - theme: alt
       text: Example Site
       link: "https://61040-fa23.github.io/portfolio-adamjanicki2/"
