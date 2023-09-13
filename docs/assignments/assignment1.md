@@ -10,7 +10,7 @@ layout: doc
 ### Theme
 Misinformation is a huge problem in most forms of modern social media. How might I design a social media app that focuses on misinformation and disincentives it?
 
-### Questions
+### Interview Questions
 1. How often do you use social media?
 2. What are the primary reasons you use social media?
 3. What kind of misinformation have you experienced while using social media?
