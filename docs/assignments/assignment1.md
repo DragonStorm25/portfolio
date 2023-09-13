@@ -56,6 +56,10 @@ The first interview used social media primarily as a communication tool. They ha
 - Talked about how misinformation caused them to get into an argument
     - The other person was correct, but because of the trust the interviewee had in their online source they refused to acknowledge that they could been incorrect
     - Arguments like this happened multiple times without the interviewee realizing this, causing some strain in their relationships
+- In some instances, the interviewee would realize they were wrong, usually after a fairly long argument
+- Talked about how being exposed to misinformation made them slightly more wary of other misinformation
+    - However, in some instances, it seemed like the interviewee would be more vulnerable to some kinds of misinformation
+    - One example is misinformation about vote-by-mail ballots and the accuracy and security of them
 
 ### Summary
 The second interviewee used social media primarily as an information gathering tool, which is significantly different to the first interviewee. They also have much more trust in the information presented online, as can be seen by how it has personally affected their relationships with people close to them. This is likely due to generalizating trusting normal news sources to trusting internet news sources. The trust placed in this misinformation caused multiple arguments with family members, most especially their children. Their children seem to have a more liberal worldview, while the interviewee has a more conservative worldview. While this would lead to discussions sometimes as would be expected, the inclusion of misinformation that the interviewee was confidently incorrect about caused the discussions to escalate into arguments. They would also share posts with misinformation not knowing that the post contained misinformation.
