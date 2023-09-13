@@ -7,18 +7,18 @@ layout: doc
 
 ## Planning
 
-Hunch/Theme
+### Hunch/Theme
 Misinformation is a huge problem in most forms of modern social media. How might I design a social media app that focuses on misinformation and disincentives it?
 
-Questions
-How often do you use social media?
-What are the primary reasons you use social media?
-What kind of misinformation have you experienced while using social media?
-What are the personal consequences of this misinformation? 
-Has it affected your relationship with anyone close to you?
-Has it affected your worldview, or how you experience the world around you?
+### Questions
+1. How often do you use social media?
+2. What are the primary reasons you use social media?
+3. What kind of misinformation have you experienced while using social media?
+4. What are the personal consequences of this misinformation? 
+5. Has it affected your relationship with anyone close to you?
+6. Has it affected your worldview, or how you experience the world around you?
 
-Interview Plan
+### Interview Plan
 Interview a college student
 Interview a middle-aged person
 
