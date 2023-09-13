@@ -20,6 +20,7 @@ Misinformation is a huge problem in most forms of modern social media. How might
 
 ### Interview Plan
 Interview a college student
+
 Interview a middle-aged person
 
 ## Interview 1 (College student)
