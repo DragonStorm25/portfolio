@@ -20,7 +20,7 @@ export default defineConfig({
       },
       {
         text: "Assignments",
-        link: "/Assignments",
+        link: "/assignments",
       },
     ],
 
