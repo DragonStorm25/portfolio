@@ -30,7 +30,7 @@ Interview a middle-aged person
 - Uses social media to look at memes, talk to friends, and find information about special interests
     - Looks at memes on Instagram
     - Talks to friends on Instagram and Discord
-    - Looks at Pokemon information/news on Twitter
+    - Looks at Pokémon information/news on Twitter
 - Commonly sees misinformation, but it’s usually in the form of memes and is easy to distinguish from the truth
 - Talked about how they would discuss misinformation with their friends with the potential that it was true
     - Sometimes someone would look it up and find it to be false
@@ -41,7 +41,7 @@ Interview a middle-aged person
         - Agreeing with it because it agreed or did not disagree with known facts
 
 ### Summary
-The first interview used social media primarily as a communication tool. They have limited trust in the truthfulness of the information presented online, likely due to growing up from a very young age with the technology and the exposure to 
+The first interview used social media primarily as a communication tool. They have limited trust in the truthfulness of the information presented online, likely due to growing up from a very young age with the technology and the large exposure to memes and ironic/post-ironic/meta-ironic comedy while using the internet. This likely built an expectation for false information to be presented truthfully, giving somewhat of an immunity towards some kinds of misinformation. There were two kinds of exceptions to this. First, when talking to friends. This is likely due to the trust built between them over months or years that naturally happens. Second, when participating and communicating in a community related to their special interests, which includes Pokémon. This is likely due to the human nature of relating to others that share similar interests. 
 
 ## Interview 2 (Middle-aged person)
 
