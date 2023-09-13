@@ -16,12 +16,12 @@ hero:
 
 features:
   - title: About Me
-    details: You'll implement a small bio about yourself on here!
+    details: More info about me
     link: /about
   - title: Blogs
-    details: Some cool blogs you'll write this semester!
+    details: Blogs where I write info and progress about my projects
     link: /blogs
   - title: Assignments
-    details: All of your assignments will be posted on your portfolio.
+    details: All of my 6.1040 assignments
     link: /assignments
 ---
