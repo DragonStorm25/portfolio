@@ -11,19 +11,19 @@ layout: doc
 ## Interview 1 (College student)
 
 ### Raw notes
-Uses social media daily for at least 2 hours a day
-Uses social media to look at memes, talk to friends, and find information about special interests
-Looks at memes on Instagram
-Talks to friends on Instagram and Discord
-Looks at Pokemon information/news on Twitter
-Commonly sees misinformation, but it’s usually in the form of memes and is easy to distinguish from the truth
-Talked about how they would discuss misinformation with their friends with the potential that it was true
-Sometimes someone would look it up and find it to be false
-This happened with some graphs and statistics they found, the sample size that the stats were produced from was very small
-Other times no one would look it up and it was just talked about, which resulted in two options
-Denying it because it disagreed with known facts
-This happened with some election 
-Agreeing with it because it agreed or did not disagree with known facts
+- Uses social media daily for at least 2 hours a day
+- Uses social media to look at memes, talk to friends, and find information about special interests
+    - Looks at memes on Instagram
+    - Talks to friends on Instagram and Discord
+    - Looks at Pokemon information/news on Twitter
+- Commonly sees misinformation, but it’s usually in the form of memes and is easy to distinguish from the truth
+- Talked about how they would discuss misinformation with their friends with the potential that it was true
+    - Sometimes someone would look it up and find it to be false
+        - This happened with some graphs and statistics they found, the sample size that the stats were produced from was very small
+    - Other times no one would look it up and it was just talked about, which resulted in two options
+        - Denying it because it disagreed with known facts
+            - This happened with some election 
+        - Agreeing with it because it agreed or did not disagree with known facts
 
 ### Summary
 	
