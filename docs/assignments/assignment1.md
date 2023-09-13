@@ -56,6 +56,7 @@ The first interview used social media primarily as a communication tool. They ha
 - Talked about how misinformation caused them to get into an argument
     - The other person was correct, but because of the trust the interviewee had in their online source they refused to acknowledge that they could been incorrect
     - Arguments like this happened multiple times without the interviewee realizing this, causing some strain in their relationships
+    - Many of these arguments were about political topics, or were brought back to political topics through relevance to current hot button issues
 - In some instances, the interviewee would realize they were wrong, usually after a fairly long argument
 - Talked about how being exposed to misinformation made them slightly more wary of other misinformation
     - However, in some instances, it seemed like the interviewee would be more vulnerable to some kinds of misinformation
