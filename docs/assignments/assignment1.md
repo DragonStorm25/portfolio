@@ -41,7 +41,7 @@ Interview a middle-aged person
         - Agreeing with it because it agreed or did not disagree with known facts
 
 ### Summary
-The first intervieww used social media primarily as a communication tool. They have limited trust in the truthfulness of the information presented online, likely due to growing up from a very young age with the technology and the exposure to 
+The first interview used social media primarily as a communication tool. They have limited trust in the truthfulness of the information presented online, likely due to growing up from a very young age with the technology and the exposure to 
 
 ## Interview 2 (Middle-aged person)
 
@@ -56,7 +56,7 @@ The first intervieww used social media primarily as a communication tool. They h
     - Arguments like this happened multiple times without the interviewee realizing this, causing some strain in their relationships
 
 ### Summary
-The second interviewee used social media primarily as an information gathering tool, which is significantly different to the first interviewee. They also have much more trust in the information presented online, as can be seen by how it has personally affected their relationships with people close to them. The trust placed in this misinformation caused multiple arguments with family members, most especially their children. Their children seem to have a more liberal worldview, while the interviewee has a more conservative worldview. While this would lead to discussions sometimes as would be expected, the inclusion of misinformation that the interviewee was confidently incorrect about caused the discussions to escalate into arguments. They would also share posts with misinformation not knowing that the post contained misinformation.
+The second interviewee used social media primarily as an information gathering tool, which is significantly different to the first interviewee. They also have much more trust in the information presented online, as can be seen by how it has personally affected their relationships with people close to them. This is likely due to generalizating trusting normal news sources to trusting internet news sources. The trust placed in this misinformation caused multiple arguments with family members, most especially their children. Their children seem to have a more liberal worldview, while the interviewee has a more conservative worldview. While this would lead to discussions sometimes as would be expected, the inclusion of misinformation that the interviewee was confidently incorrect about caused the discussions to escalate into arguments. They would also share posts with misinformation not knowing that the post contained misinformation.
 
 ## Design Opportunities
 - Let users know if a post contains misinformation, along with information about why it is incorrect. This would reduce the spread of misinformation primarily within the app and reduce the spread of misinformation when speaking in real life as a secondary effect. 
