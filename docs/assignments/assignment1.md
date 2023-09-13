@@ -38,6 +38,8 @@ Interview a middle-aged person
         - Denying it because it disagreed with known facts
             - This happened with some election 
         - Agreeing with it because it agreed or did not disagree with known facts
+- Talked about how being exposed to misinformation made them more wary of other misinformation
+    - Due to finding out when some information is actually misinformation, the interviewee was slightly more likely to check information that seemed strange or did not fit into their understanding of the world
 
 ### Summary
 The first interview used social media primarily as a communication tool. They have limited trust in the truthfulness of the information presented online, likely due to growing up from a very young age with the technology and the large exposure to memes and ironic/post-ironic/meta-ironic comedy while using the internet. This likely built an expectation for false information to be presented truthfully, giving somewhat of an immunity towards some kinds of misinformation. There were two kinds of exceptions to this. First, when talking to friends. This is likely due to the trust built between them over months or years that naturally happens. Second, when participating and communicating in a community related to their special interests, which includes Pokémon. This is likely due to the human nature of relating to others that share similar interests. 
