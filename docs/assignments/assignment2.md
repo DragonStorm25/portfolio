@@ -11,10 +11,10 @@ Name
 - 
 
 Audience
-- 
+- people who value correct information extremely highly on the internet
 
 Value
-- 
+- *App name* will prioritize battling the blatant misinformation found in nearly every area of the internet, especially on social media. 
 
 ## Brainstorm Features
 
