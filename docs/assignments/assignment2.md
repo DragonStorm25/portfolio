@@ -33,6 +33,21 @@ Trust/Mistrust
 Following/Unfollowing
 - users can follow another user to see their posts more easily
 
+Block
+- users can block other users, preventing them from interacting or otherwise seeing them on the app
+
+Search
+- users can search for other users or keywords in posts
+
+Notifications
+- users can receieve notifications for important events that happen in-app
+
+Profile
+- users can create a profile with information about then, such as a username, biography, and preferred pronouns
+
+Private Messaging
+- users can send other users messages only visible to the two of them
+
 ## VSD Analysis
 
 ## Concepts
