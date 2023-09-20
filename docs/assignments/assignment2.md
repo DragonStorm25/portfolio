@@ -160,3 +160,5 @@ Solid arrow lines represent the head depending on the tail, dashed arrow lines r
 ![Dependency diagram](../images/DependencyGraphA2.png)
 
 ## UI Sketches
+
+![UI sketch](../images/UISketchA2.png)
