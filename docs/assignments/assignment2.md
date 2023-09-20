@@ -149,6 +149,10 @@ Attach Media
 - Allows users to link media, such as images or videos, to any text inputted
 - A user can attach an image of their dog to a PM message to another user, or attach a video of them surfing in a comment on a post about surfing
 
+Karma
+- Each user has a score associated with their account, which changes depending on the type of content they post
+- A user who posts a lot of true content will have a high positive karma score, a user who posts a few true posts will have a low positive karma score, and a user who posts a lot of false content will have a high negative karma score
+
 ## Dependency Diagram
 
 Solid arrow lines represent the head depending on the tail, dashed arrow lines represent the head depending on at least one of the tails of any other dashed arrow line attached to the same head
