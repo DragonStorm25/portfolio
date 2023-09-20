@@ -88,7 +88,7 @@ Long-Term Health and Well-Being
 
 Political Realities
 - Democratic
-    - In a democratic country, voting is a very important aspect of life. The like/dislike and trust/mistrust features follow this philosophy, but 
+    - In a democratic country, voting is a very important aspect of life. The like/dislike and trust/mistrust features follow this philosophy, but the current votes are not shown. To improve this, the ratios or exact numbers should be shown to the users to allow them to see what others think. This also reflects how voting works in real life; the results can be seen during the voting process in some cases.
 - Totalitarian
     - Due to the large amount of control the government wants to have over its citizens in a totalitarian government, RealTalk will likely be restrictied or outright banned. Totalitarian governments restrict the truth from the outside world and impose their own "truth", which often contradicts the actual truth.
 
