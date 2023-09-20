@@ -70,6 +70,9 @@ Share
 
 ### Stakeholders
 
+Consider Children
+- Due to the anti-misinformation tactics employed by the app, it should be safer for children than other social media apps. However, to combat this even further, the algorithm that decides which posts a user will see can put a higher priority on correct information and a different priority distribution on tags depending on the age of the user.
+
 ### Time
 
 ### Pervasiveness
