@@ -151,4 +151,6 @@ Attach Media
 
 ## Dependence Diagram
 
+[Dependency diagram](../images/DependencyGraphA2.png)
+
 ## UI Sketches
