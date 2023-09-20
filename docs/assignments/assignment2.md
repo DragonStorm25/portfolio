@@ -94,6 +94,9 @@ Political Realities
 
 ### Values
 
+User Experience of Values
+- The trust/mistrust buttons of RealTalk are completely aligned with the main value that the platform stands for. Just the presence of them will influence some users into thinking more critically about the information they read, causing their values to shift to promote truthfulness. 
+
 ## Concepts
 
 ## Dependence Diagram
