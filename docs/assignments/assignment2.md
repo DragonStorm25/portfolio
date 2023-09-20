@@ -11,7 +11,7 @@ Name
 - RealTalk
 
 Audience
-- people who value correct information extremely highly on the internet
+- People who value correct information above most other things on the internet
 
 Value
 - RealTalk will prioritize battling the blatant misinformation found in nearly every area of the internet, especially on social media. 
