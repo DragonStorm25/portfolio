@@ -18,6 +18,9 @@ Value
 
 ## Brainstorm Features
 
+User
+- an independent person using RealTalk for some period of time
+
 Session
 - users can login, input information to be saved between sessions and access personal information, and logout
 
@@ -101,6 +104,10 @@ User Experience of Values
 - The trust/mistrust buttons of RealTalk are completely aligned with the main value that the platform stands for. Just the presence of them will influence some users into thinking more critically about the information they read, causing their values to shift to promote truthfulness. 
 
 ## Concepts
+
+User
+- An individual who uses RealTalk for some amount of time
+- A person who opens RealTalk becomes a user, and stops being a user once they close the app
 
 Session
 - Allows users to login, logout, and save and access user-specific information and functions between login and logout
