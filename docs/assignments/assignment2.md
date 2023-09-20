@@ -68,6 +68,14 @@ Share
 
 ## VSD Analysis
 
+### Stakeholders
+
+### Time
+
+### Pervasiveness
+
+### Values
+
 ## Concepts
 
 ## Dependence Diagram
