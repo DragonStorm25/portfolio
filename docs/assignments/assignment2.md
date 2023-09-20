@@ -78,6 +78,9 @@ Consider Children
 Appropration by Cultural Groups
 - There are multiple religious groups that share false or unproven information to convince others to join their group. Some sects of Christianity do this; for example, they might say there is historical evidence that proves the content of a specific Bible verse in one of their posts. In this case that this is not true, there would be information about the untruthfulness attached to the post. The sect might see this as a form of prosecution and react negatively to this.
 
+Adaptation
+- Users may simply trust any post that they like and mistrust any post they dislike while using RealTalk. This is unfortunately the opposite of the wanted effect, but could potentially happen. This could be reduced by separating where the buttons are located on a post so users psychologically associate them with different areas, and thus don't associate them with each other as strongly. 
+
 Long-Term Health and Well-Being
 - After interacting with RealTalk daily for a long period of time, users might 
     - be able to identify misinformation that follows common patterns. This would be due to the consistent reinforcement of thinking of the truthfulness of information after reading it, which leads to a positive effect. 
