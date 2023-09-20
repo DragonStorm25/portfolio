@@ -78,6 +78,12 @@ Consider Children
 Appropration by Cultural Groups
 - There are multiple religious groups that share false or unproven information to convince others to join their group. Some sects of Christianity do this; for example, they might say there is historical evidence that proves the content of a specific Bible verse in one of their posts. In this case that this is not true, there would be information about the untruthfulness attached to the post. The sect might see this as a form of prosecution and react negatively to this.
 
+Long-Term Health and Well-Being
+- After interacting with *App name* daily for a long period of time, users might 
+    - be able to identify misinformation that follows common patterns. This would be due to the consistent reinforcement of thinking of the truthfulness of information after reading it, which leads to a positive effect. 
+    - be able to fact-check pieces of information before they share to other people if there is a high likelihood that it could be false. This would cause slower and less sharing of information on average, but increased truthfulness in the information they share which is an overall positive effect.
+    - insist upon the truthfulness of any information they receive above all other things. This could potentially damage their relationships with others depending on how they insist, and could have a positive or negative effect.
+
 ### Pervasiveness
 
 ### Values
