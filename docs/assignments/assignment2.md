@@ -55,10 +55,10 @@ Commenting
 - users can reply to posts with comments
 
 Tags
-- users can add tags to things they post, allowing other users to see those kinds of posts more easily; these tags will also affect how strictly the trust/mistrust ratio will be taken when algorithmically showing posts to users
+- users can add tags to things they post, allowing other users to see those kinds of posts more easily
 
 Ping
-- users can "ping" other users, sending them a notification to see a comment or post where they were pinged
+- users can "ping" other users, notifying the other user to see where and why they were pinged
 
 Share
 - users can share posts through copying the url of a post or by sending them private messages
