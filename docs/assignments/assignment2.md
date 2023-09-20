@@ -22,7 +22,10 @@ Session
 - users can login, input information to be saved between sessions and access personal information, and logout
 
 Posting
-- users can share a snippet of text with or without a piece of media to other users, either privately or publicy
+- users can share a snippet of text to other users, either privately or publicy
+
+Tags
+- users can add tags to things they post, allowing other users to see those kinds of posts more easily
 
 Likes/Dislikes
 - users can apply a like or dislike to any post they see
@@ -30,8 +33,8 @@ Likes/Dislikes
 Trust/Mistrust
 - users can apply a "trust" or "mistrust" to any post they see, which shows whether the user believes the post to be true
 
-Following/Unfollowing
-- users can follow another user to see their posts more easily
+Commenting
+- users can reply to posts with comments
 
 Block
 - users can block other users, preventing them from interacting or otherwise seeing them on the app
@@ -48,14 +51,14 @@ Account Update Notifications
 Profile
 - users can create a profile with information about then, such as a username, biography, and preferred pronouns
 
+Following/Unfollowing
+- users can follow another user to see their posts more easily
+
 Private Messaging
 - users can send other users messages only visible to the two of them
 
-Commenting
-- users can reply to posts with comments
-
-Tags
-- users can add tags to things they post, allowing other users to see those kinds of posts more easily
+Attach Media
+- users can attach media to posts, comments, and private messages
 
 Ping
 - users can "ping" other users, notifying the other user to see where and why they were pinged
