@@ -138,8 +138,6 @@ Attach Media
 - Allows users to link media, such as images or videos, to any text inputted
 - A user can attach an image of their dog to a PM message to another user, or attach a video of them surfing in a comment on a post about surfing
 
-Share
-
 ## Dependence Diagram
 
 ## UI Sketches
