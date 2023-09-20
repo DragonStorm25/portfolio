@@ -75,6 +75,9 @@ Consider Children
 
 ### Time
 
+Appropration by Cultural Groups
+- There are multiple religious groups that share false or unproven information to convince others to join their group. Some sects of Christianity do this; for example, they might say there is historical evidence that proves the content of a specific Bible verse in one of their posts. In this case that this is not true, there would be information about the untruthfulness attached to the post. The sect might see this as a form of prosecution and react negatively to this.
+
 ### Pervasiveness
 
 ### Values
