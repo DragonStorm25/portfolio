@@ -102,6 +102,26 @@ User Experience of Values
 
 ## Concepts
 
+Post
+
+Tag
+
+Like/Dislike
+
+Trust/Mistrust
+
+Commenting
+
+Profile
+
+Following/Unfollowing
+
+Private Messaging
+
+Attach Media
+
+Share
+
 ## Dependence Diagram
 
 ## UI Sketches
