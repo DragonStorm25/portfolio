@@ -151,6 +151,8 @@ Attach Media
 
 ## Dependency Diagram
 
+Solid arrow lines represent the head depending on the tail, dashed arrow lines represent the head depending on at least one of the tails of any other dashed arrow line attached to the same head
+
 ![Dependency diagram](../images/DependencyGraphA2.png)
 
 ## UI Sketches
