@@ -42,11 +42,26 @@ Search
 Notifications
 - users can receieve notifications for important events that happen in-app
 
+Account Update Notifications
+- users can receive notification if another user's account is updated in some way, i.e. posts, comments, likes
+
 Profile
 - users can create a profile with information about then, such as a username, biography, and preferred pronouns
 
 Private Messaging
 - users can send other users messages only visible to the two of them
+
+Commenting
+- users can reply to posts with comments
+
+Tags
+- users can add tags to things they post, allowing other users to see those kinds of posts more easily; these tags will also affect how strictly the trust/mistrust ratio will be taken when algorithmically showing posts to users
+
+Ping
+- users can "ping" other users, sending them a notification to see a comment or post where they were pinged
+
+Share
+- users can share posts through copying the url of a post or by sending them private messages
 
 ## VSD Analysis
 
