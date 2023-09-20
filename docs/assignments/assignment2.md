@@ -102,6 +102,10 @@ User Experience of Values
 
 ## Concepts
 
+Session
+- Allows users to login, logout, and save and access user-specific information and functions between login and logout
+- A user can login to their session, make a post, comment on two other posts, and logout
+
 Post
 - Allows users to share information with others
 - A user can share the text "Delicious dinner!" with an image of lasagna that they made
