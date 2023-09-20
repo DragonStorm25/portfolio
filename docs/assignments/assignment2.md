@@ -8,7 +8,7 @@ layout: doc
 ## Broad Goals
 
 Name
-- 
+- *App name*
 
 Audience
 - people who value correct information extremely highly on the internet
