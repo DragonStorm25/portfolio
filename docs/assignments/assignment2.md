@@ -103,22 +103,40 @@ User Experience of Values
 ## Concepts
 
 Post
+- Allows users to share information with others
+- A user can share the text "Delicious dinner!" with an image of lasagna that they made
 
 Tag
+- Allows users to add tags to posts to allow easier filtering from other concepts
+- A user can add the tags "food", "dinner", and "lasagna" to the post above
 
 Like/Dislike
+- Allows users to express their interest or disinterest in a post, or show their enjoyment or displeasure
+- A user who enjoys eating lasagna can like the post above, and another user who is allergic to tomatoes can dislike the post above
 
 Trust/Mistrust
+- Allows users to express whether they believe the information in the post is factual 
+- A user who shared the lasagna with the original poster of the above post can trust the post knowing that the lasagna was made and eaten for dinner
 
 Commenting
+- Allows users to express opinions, ask questions, or otherwise interact with a post where likes/dislikes and trust/mistrusts are not sufficient
+- A user can comment a statement on the post above such as "Wow! That looks amazing", and another user can comment a question on the post above such as "What recipe did you use?"
 
 Profile
+- Allows users to mentally separate other users using unique features, such as a profile picture and username, and for users to set personal settings, such as a password, security, and UI theme
+- A user can create and decorate their profile with their real name and a picture of them taken yesterday so others can find them more easily
 
 Following/Unfollowing
+- Allows users to keep closer contact with another user, facilitating information sharing
+- A user can follow another user to ensure they see a majority of what the other user posts and potentially to private message them depending on profile settings
 
 Private Messaging
+- Allows users to directly message other users in a private chat where no other users can see
+- A user can PM another user to ask a personal question about their recent vacation photos without involving others
 
 Attach Media
+- Allows users to link media, such as images or videos, to any text inputted
+- A user can attach an image of their dog to a PM message to another user, or attach a video of them surfing in a comment on a post about surfing
 
 Share
 
