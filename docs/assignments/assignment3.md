@@ -15,9 +15,11 @@ The internet is full of so much information, but along with that information com
 >**concept** User
 >
 >**purpose**
+>
 > to represent a single person using RealTalk
 >
 >**state**
+>
 > karma: Integer
 >
 >**actions**
@@ -49,11 +51,14 @@ The internet is full of so much information, but along with that information com
 >**purpose**
 >
 >**state**
+>
 > comments: Post -> set Comment
 >
 >**actions**
+>
 > comment(p: Post, u: User, s: String)
 >   add s under the post p with author u
+>
 > uncomment(c: Comment, u: User)
 >   when c was posted by u
 >   delete c from under post
@@ -65,14 +70,18 @@ The internet is full of so much information, but along with that information com
 >**purpose**
 >
 >**state**
+>
 > likes: Post -> set User
+>
 > dislikes: Post -> set User
 >
 >**actions**
+>
 > like(p: Post, u: User)
 >   associate u with p in likes
 >   when u is associated with p in dislikes
 >   remove the association of u to p in dislikes
+>
 > dislike(p: Post, u: User)
 >   associate u with p in dislikes
 >   when u is associated with p in likes
@@ -85,7 +94,9 @@ The internet is full of so much information, but along with that information com
 >**purpose**
 >
 >**state**
+>
 > trusts: Post -> Integer
+>
 > mistrusts: Post -> Integer
 >
 >**actions**
