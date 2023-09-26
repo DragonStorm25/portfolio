@@ -40,7 +40,7 @@ The internet is full of so much information, but along with that information com
 > comments: Post -> set Comment
 >**operational principle**
 
->**concept** Like/Dislike \[Post]
+>**concept** Like \[Post]
 >**purpose**
 >
 >**state**
