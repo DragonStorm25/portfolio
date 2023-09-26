@@ -51,11 +51,11 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>post(u: User, up: Post, c: Content)
 >>>store c as content of up  
->>>associate up with u in posts
+>>>associate up with u in posts  
 >>unpost(u: User, up: Post)
 >>>when up belongs to some user's posts  
 >>>remove up from that user's posts  
->>>forget content of up
+>>>forget content of up  
 >
 >**operational principle**
 >>after post(u, up, c) until unpost(u, up), up in posts
@@ -73,11 +73,11 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>comment(p: Post, u: User, c: Content)  
 >>>associate c with p in comments  
->>>store u as author c is from
+>>>store u as author c is from  
 >>uncomment(u: User, c: Content)  
 >>>when the author of c is u  
 >>>remove association of c to p  
->>>forget author of c 
+>>>forget author of c  
 >
 >**operational principle**
 >>after comment(p, u, c) until uncomment(u, c), c in comments and u is author of c
@@ -95,16 +95,16 @@ The internet is full of so much information, but along with that information com
 >>like(p: Post, u: User)  
 >>>associate u with p in likes  
 >>>when u is associated with p in dislikes  
->>>remove the association of u to p in dislikes
+>>>remove the association of u to p in dislikes  
 >>dislike(p: Post, u: User)  
 >>>associate u with p in dislikes  
 >>>when u is associated with p in likes  
->>>remove the association of u to p in likes
+>>>remove the association of u to p in likes  
 >>neutralize(p: Post, u: User)
 >>>when u is associated with p in likes  
 >>>remove the association of u with p in likes  
 >>>when u is associated with p in dislikes  
->>>remove the association of u with p in dislikes
+>>>remove the association of u with p in dislikes  
 >
 >**operational principle**
 >>after like(p, u) until dislike(p, u) or neutralize(p, u), u in likes  
@@ -123,16 +123,16 @@ The internet is full of so much information, but along with that information com
 >>trust(p: Post, u: User)  
 >>>associate u with p in trusts  
 >>>when u is associated with p in mistrusts  
->>>remove the association of u to p in mistrusts
+>>>remove the association of u to p in mistrusts  
 >>mistrust(p: Post, u: User)  
 >>>associate u with p in mistrusts  
 >>>when u is associated with p in trusts  
->>>remove the association of u to p in trusts
+>>>remove the association of u to p in trusts  
 >>neutralize(p: Post, u: User)
 >>>when u is associated with p in trusts  
 >>>remove the association of u with p in trusts  
 >>>when u is associated with p in mistrusts  
->>>remove the association of u with p in mistrusts
+>>>remove the association of u with p in mistrusts  
 >
 >**operational principle**
 >>after trust(p, u) until mistrust(p, u) or neutralize(p, u), u in trusts  
