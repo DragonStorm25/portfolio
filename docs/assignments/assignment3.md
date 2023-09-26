@@ -59,7 +59,6 @@ The internet is full of so much information, but along with that information com
 >>comments: Post -> set Comment
 >
 >**actions**
->
 >>comment(p: Post, u: User, s: String)  
 >>>add s under the post p with author u
 >
@@ -75,11 +74,9 @@ The internet is full of so much information, but along with that information com
 >**purpose**
 >
 >**state**
->
 >>likes, dislikes: Post -> set User  
 >
 >**actions**
->
 >>like(p: Post, u: User)  
 >>>associate u with p in likes  
 >>>when u is associated with p in dislikes  
@@ -98,11 +95,9 @@ The internet is full of so much information, but along with that information com
 >**purpose**
 >
 >**state**
->
 >>trusts, mistrusts: Post -> set User  
 >
 >**actions**
->
 >>trust(p: Post, u: User)  
 >>>associate u with p in trusts  
 >>>when u is associated with p in mistrusts  
