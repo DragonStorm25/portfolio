@@ -61,16 +61,17 @@ The internet is full of so much information, but along with that information com
 >>after post(u, up, c) until unpost(u, up), up in posts
 
 #### Comment
->**concept** comment \[Post, User]
+>**concept** comment \[Post, User, Content]
 >
 >**purpose**
 >
 >**state**
->>comments: Post -> set Comment
+>>comments: Post -> set Content
+>>author: Content -> one User
 >
 >**actions**
->>comment(p: Post, u: User, s: String)  
->>>add s under the post p with author u
+>>comment(p: Post, u: User, c: Content)  
+>>>add c under the post p with author u
 >
 >>uncomment(c: Comment, u: User)  
 >>>when c was posted by u  
