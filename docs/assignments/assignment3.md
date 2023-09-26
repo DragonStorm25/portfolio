@@ -58,6 +58,7 @@ The internet is full of so much information, but along with that information com
 >>>forget content of up
 >
 >**operational principle**
+>>after post(u, up, c) until unpost(u, up), up in posts
 
 #### Comment
 >**concept** comment \[Post, User]
