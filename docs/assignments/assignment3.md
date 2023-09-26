@@ -60,15 +60,12 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >
->  comment(p: Post, u: User, s: String)
->
+>  comment(p: Post, u: User, s: String)  
 >    add s under the post p with author u
 >
->  uncomment(c: Comment, u: User)
->
->    when c was posted by u
->
->    delete c from under post
+>  uncomment(c: Comment, u: User)  
+>    when c was posted by u  
+>    delete c from under post  
 >
 >**operational principle**
 
@@ -85,20 +82,14 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >
->  like(p: Post, u: User)
->
->    associate u with p in likes
->
->    when u is associated with p in dislikes
->
+>  like(p: Post, u: User)  
+>    associate u with p in likes  
+>    when u is associated with p in dislikes  
 >    remove the association of u to p in dislikes
 >
->  dislike(p: Post, u: User)
->
->    associate u with p in dislikes
->
->    when u is associated with p in likes
->
+>  dislike(p: Post, u: User)  
+>    associate u with p in dislikes  
+>    when u is associated with p in likes  
 >    remove the association of u to p in likes
 >
 >**operational principle**
@@ -116,20 +107,14 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >
->  trust(p: Post, u: User)
->
->    associate u with p in trusts
->
->    when u is associated with p in mistrusts
->
+>  trust(p: Post, u: User)  
+>    associate u with p in trusts  
+>    when u is associated with p in mistrusts  
 >    remove the association of u to p in mistrusts
 >
->  mistrust(p: Post, u: User)
->
->    associate u with p in mistrusts
->
->    when u is associated with p in trusts
->
+>  mistrust(p: Post, u: User)  
+>    associate u with p in mistrusts  
+>    when u is associated with p in trusts  
 >    remove the association of u to p in trusts
 >
 >**operational principle**
