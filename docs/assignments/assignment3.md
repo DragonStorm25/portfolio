@@ -12,6 +12,20 @@ The internet is full of so much information, but along with that information com
 
 ### Concept List
 
+- User
+
+- Session
+
+- Post
+
+- Comment
+
+- Like/Dislike
+
+- Trust/Mistrust
+
+- Karma
+
 ### Synchronizations
 
 ### Dependency Diagram
