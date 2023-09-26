@@ -12,6 +12,7 @@ The internet is full of so much information, but along with that information com
 
 ### Concept List
 
+#### User
 >**concept** User
 >
 >**purpose**
@@ -26,6 +27,7 @@ The internet is full of so much information, but along with that information com
 >
 >**operational principle**
 
+#### Session
 >**concept** Session
 >
 >**purpose**
@@ -36,6 +38,7 @@ The internet is full of so much information, but along with that information com
 >
 >**operational principle**
 
+#### Post
 >**concept** Post
 >
 >**purpose**
@@ -46,6 +49,7 @@ The internet is full of so much information, but along with that information com
 >
 >**operational principle**
 
+#### Comment
 >**concept** Comment \[Post, User]
 >
 >**purpose**
@@ -65,6 +69,7 @@ The internet is full of so much information, but along with that information com
 >
 >**operational principle**
 
+#### Like
 >**concept** Like \[Post, User]
 >
 >**purpose**
@@ -89,6 +94,7 @@ The internet is full of so much information, but along with that information com
 >
 >**operational principle**
 
+#### Trust
 >**concept** Trust \[Post]
 >
 >**purpose**
