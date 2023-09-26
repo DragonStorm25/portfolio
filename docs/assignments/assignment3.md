@@ -17,12 +17,16 @@ The internet is full of so much information, but along with that information com
 > to represent a single person using RealTalk
 >**state**
 > karma: Integer
+>**actions**
+>
 >**operational principle**
 
 >**concept** Session
 >**purpose**
 >
 >**state**
+>
+>**actions**
 >
 >**operational principle**
 
@@ -31,6 +35,8 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
+>**actions**
+>
 >**operational principle**
 
 >**concept** Comment \[Post]
@@ -38,6 +44,8 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 > comments: Post -> set Comment
+>**actions**
+>
 >**operational principle**
 
 >**concept** Like \[Post]
@@ -46,6 +54,8 @@ The internet is full of so much information, but along with that information com
 >**state**
 > likes: Post -> Integer
 > dislikes: Post -> Integer
+>**actions**
+>
 >**operational principle**
 
 >**concept** Trust \[Post]
@@ -54,6 +64,8 @@ The internet is full of so much information, but along with that information com
 >**state**
 > trusts: Post -> Integer
 > mistrusts: Post -> Integer
+>**actions**
+>
 >**operational principle**
 
 ### Synchronizations
