@@ -42,7 +42,7 @@ The internet is full of so much information, but along with that information com
 >**concept** post \[User, Post, Content]
 >
 >**purpose**
->share information with others
+>>share information with others
 >**state**
 >>posts: User -> set Post  
 >>content: Post -> Content
