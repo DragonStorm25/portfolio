@@ -71,11 +71,13 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >>comment(p: Post, u: User, c: Content)  
->>>add c under the post p with author u
+>>>associate c with p in comments
+>>>store u as author c is from
 >
->>uncomment(c: Comment, u: User)  
->>>when c was posted by u  
->>>delete c from under post  
+>>uncomment(u: User, c: Content)  
+>>>when the author of c is u
+>>>remove association of c to p
+>>>forget author of c 
 >
 >**operational principle**
 
