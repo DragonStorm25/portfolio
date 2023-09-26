@@ -39,7 +39,7 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 #### Post
->**concept** post \[User, Content]
+>**concept** post \[User, UserPost, Content]
 >
 >**purpose**
 >share information with others
