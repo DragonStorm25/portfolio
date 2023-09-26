@@ -44,11 +44,18 @@ The internet is full of so much information, but along with that information com
 >**purpose**
 >
 >**state**
->>posts: User -> set Content
+>>posts: User -> set UserPost
+>>content: UserPost -> Content
 >
 >**actions**
->>post(u: User, c: Content)
->>>associate c with u in posts
+>>post(u: User, up: UserPost, c: Content)
+>>>store c as content of up
+>>>associate up with u in posts
+>
+>>unpost(u: User, up: UserPost)
+>>>when up belongs to some user's posts
+>>>remove up from that user's posts
+>>>forget content of up
 >
 >**operational principle**
 
