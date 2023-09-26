@@ -12,19 +12,19 @@ The internet is full of so much information, but along with that information com
 
 ### Concept List
 
-- User
+**concept** User
 
-- Session
+**concept** Session
 
-- Post
+**concept** Post
 
-- Comment
+**concept** Comment
 
-- Like/Dislike
+**concept** Like/Dislike
 
-- Trust/Mistrust
+**concept** Trust/Mistrust
 
-- Karma
+**concept** Karma
 
 ### Synchronizations
 
