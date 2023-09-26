@@ -14,7 +14,7 @@ The internet is full of so much information, but along with that information com
 
 >**concept** User
 >**purpose**
->
+> karma: Integer
 >**state**
 >
 >**operational principle**
@@ -48,13 +48,6 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 >**concept** Trust/Mistrust \[Post]
->**purpose**
->
->**state**
->
->**operational principle**
-
->**concept** Karma \[User]
 >**purpose**
 >
 >**state**
