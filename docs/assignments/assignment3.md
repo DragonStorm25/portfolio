@@ -56,14 +56,14 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
-> comments: Post -> set Comment
+>  comments: Post -> set Comment
 >
 >**actions**
 >
-> comment(p: Post, u: User, s: String)
+>  comment(p: Post, u: User, s: String)
 >    add s under the post p with author u
 >
-> uncomment(c: Comment, u: User)
+>  uncomment(c: Comment, u: User)
 >    when c was posted by u
 >    delete c from under post
 >
@@ -76,18 +76,18 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
-> likes: Post -> set User
+>  likes: Post -> set User
 >
-> dislikes: Post -> set User
+>  dislikes: Post -> set User
 >
 >**actions**
 >
-> like(p: Post, u: User)
+>  like(p: Post, u: User)
 >    associate u with p in likes
 >    when u is associated with p in dislikes
 >    remove the association of u to p in dislikes
 >
-> dislike(p: Post, u: User)
+>  dislike(p: Post, u: User)
 >    associate u with p in dislikes
 >    when u is associated with p in likes
 >    remove the association of u to p in likes
@@ -101,18 +101,18 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
-> trusts: Post -> set User
+>  trusts: Post -> set User
 >
-> mistrusts: Post -> set User
+>  mistrusts: Post -> set User
 >
 >**actions**
 >
-> trust(p: Post, u: User)
+>  trust(p: Post, u: User)
 >    associate u with p in trusts
 >    when u is associated with p in mistrusts
 >    remove the association of u to p in mistrusts
 >
-> mistrust(p: Post, u: User)
+>  mistrust(p: Post, u: User)
 >    associate u with p in mistrusts
 >    when u is associated with p in trusts
 >    remove the association of u to p in trusts
