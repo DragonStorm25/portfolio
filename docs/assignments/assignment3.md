@@ -10,6 +10,12 @@ The internet is full of so much information, but along with that information com
 
 ## Functional Design
 
+### Concept List
+
+### Synchronizations
+
+### Dependency Diagram
+
 ## Wireframe
 
 ## Design Tradeoffs
