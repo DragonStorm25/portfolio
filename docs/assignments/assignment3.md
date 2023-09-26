@@ -72,11 +72,11 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >>comment(p: Post, u: User, c: Content)  
->>>associate c with p in comments
+>>>associate c with p in comments  
 >>>store u as author c is from
 >>uncomment(u: User, c: Content)  
->>>when the author of c is u
->>>remove association of c to p
+>>>when the author of c is u  
+>>>remove association of c to p  
 >>>forget author of c 
 >
 >**operational principle**
@@ -101,13 +101,13 @@ The internet is full of so much information, but along with that information com
 >>>when u is associated with p in likes  
 >>>remove the association of u to p in likes
 >>neutralize(p: Post, u: User)
->>>when u is associated with p in likes
->>>remove the association of u with p in likes
->>>when u is associated with p in dislikes
+>>>when u is associated with p in likes  
+>>>remove the association of u with p in likes  
+>>>when u is associated with p in dislikes  
 >>>remove the association of u with p in dislikes
 >
 >**operational principle**
->>after like(p, u) until dislike(p, u) or neutralize(p, u), u in likes
+>>after like(p, u) until dislike(p, u) or neutralize(p, u), u in likes  
 >>after dislike(p, u) until like(p, u) or neutralize(p, u), u in dislikes
 
 #### Trust
@@ -129,13 +129,13 @@ The internet is full of so much information, but along with that information com
 >>>when u is associated with p in trusts  
 >>>remove the association of u to p in trusts
 >>neutralize(p: Post, u: User)
->>>when u is associated with p in trusts
->>>remove the association of u with p in trusts
->>>when u is associated with p in mistrusts
+>>>when u is associated with p in trusts  
+>>>remove the association of u with p in trusts  
+>>>when u is associated with p in mistrusts  
 >>>remove the association of u with p in mistrusts
 >
 >**operational principle**
->>after trust(p, u) until mistrust(p, u) or neutralize(p, u), u in trusts
+>>after trust(p, u) until mistrust(p, u) or neutralize(p, u), u in trusts  
 >>after mistrust(p, u) until trust(p, u) or neutralize(p, u), u in mistrusts
 
 ### Synchronizations
