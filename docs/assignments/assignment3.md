@@ -108,6 +108,8 @@ The internet is full of so much information, but along with that information com
 >>>remove the association of u with p in dislikes
 >
 >**operational principle**
+>>after like(p, u) until dislike(p, u) or neutralize(p, u), u in likes
+>>after dislike(p, u) until like(p, u) or neutralize(p, u), u in dislikes
 
 #### Trust
 >**concept** trust \[Post, User]
