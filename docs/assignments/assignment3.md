@@ -56,16 +56,16 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
->  comments: Post -> set Comment
+>      comments: Post -> set Comment
 >
 >**actions**
 >
->  comment(p: Post, u: User, s: String)  
->    add s under the post p with author u
+>      comment(p: Post, u: User, s: String)  
+>        add s under the post p with author u
 >
->  uncomment(c: Comment, u: User)  
->    when c was posted by u  
->    delete c from under post  
+>      uncomment(c: Comment, u: User)  
+>        when c was posted by u  
+>        delete c from under post  
 >
 >**operational principle**
 
