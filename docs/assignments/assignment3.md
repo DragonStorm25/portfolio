@@ -52,7 +52,8 @@ The internet is full of so much information, but along with that information com
 >**purpose**
 >
 >**state**
->
+> trusts: Post -> Integer
+> mistrusts: Post -> Integer
 >**operational principle**
 
 ### Synchronizations
