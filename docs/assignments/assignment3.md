@@ -13,7 +13,6 @@ The internet is full of so much information, but along with that information com
 ### Concept List
 
 >**concept** User
->
 >**purpose**
 >
 >**state**
@@ -21,7 +20,6 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 >**concept** Session
->
 >**purpose**
 >
 >**state**
@@ -29,7 +27,6 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 >**concept** Post
->
 >**purpose**
 >
 >**state**
@@ -37,7 +34,6 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 >**concept** Comment
->
 >**purpose**
 >
 >**state**
@@ -45,7 +41,6 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 >**concept** Like/Dislike
->
 >**purpose**
 >
 >**state**
@@ -53,7 +48,6 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 >**concept** Trust/Mistrust
->
 >**purpose**
 >
 >**state**
@@ -61,7 +55,6 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 >**concept** Karma
->
 >**purpose**
 >
 >**state**
