@@ -137,6 +137,8 @@ The internet is full of so much information, but along with that information com
 >>>remove the association of u with p in mistrusts
 >
 >**operational principle**
+>>after trust(p, u) until mistrust(p, u) or neutralize(p, u), u in trusts
+>>after mistrust(p, u) until trust(p, u) or neutralize(p, u), u in mistrusts
 
 ### Synchronizations
 
