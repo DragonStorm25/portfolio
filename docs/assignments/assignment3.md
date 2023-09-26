@@ -80,6 +80,7 @@ The internet is full of so much information, but along with that information com
 >>>forget author of c 
 >
 >**operational principle**
+>>after comment(p, u, c) until uncomment(u, c), c in comments and u is author of c
 
 #### Like
 >**concept** like \[Post, User]
