@@ -17,11 +17,11 @@ The internet is full of so much information, but along with that information com
 >
 >**purpose**
 >
-> to represent a single person using RealTalk
+>>to represent a single person using RealTalk
 >
 >**state**
 >
-> karma: Integer
+>>karma: Integer
 >
 >**actions**
 >
