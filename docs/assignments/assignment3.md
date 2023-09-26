@@ -86,7 +86,7 @@ The internet is full of so much information, but along with that information com
 >**concept** like \[Post, User]
 >
 >**purpose**
->
+>>show approval or disapproval of information
 >**state**
 >>likes, dislikes: Post -> set User  
 >
