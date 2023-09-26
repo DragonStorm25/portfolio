@@ -37,7 +37,7 @@ The internet is full of so much information, but along with that information com
 >**purpose**
 >
 >**state**
->
+> comments: Post -> set Comment
 >**operational principle**
 
 >**concept** Like/Dislike \[Post]
