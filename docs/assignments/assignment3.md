@@ -14,9 +14,9 @@ The internet is full of so much information, but along with that information com
 
 >**concept** User
 >**purpose**
-> karma: Integer
+> 
 >**state**
->
+> karma: Integer
 >**operational principle**
 
 >**concept** Session
