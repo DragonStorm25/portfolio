@@ -33,28 +33,28 @@ The internet is full of so much information, but along with that information com
 >
 >**operational principle**
 
->**concept** Comment
+>**concept** Comment \[Post]
 >**purpose**
 >
 >**state**
 >
 >**operational principle**
 
->**concept** Like/Dislike
+>**concept** Like/Dislike \[Post]
 >**purpose**
 >
 >**state**
 >
 >**operational principle**
 
->**concept** Trust/Mistrust
+>**concept** Trust/Mistrust \[Post]
 >**purpose**
 >
 >**state**
 >
 >**operational principle**
 
->**concept** Karma
+>**concept** Karma \[User]
 >**purpose**
 >
 >**state**
