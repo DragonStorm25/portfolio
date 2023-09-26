@@ -65,6 +65,7 @@ The internet is full of so much information, but along with that information com
 >
 >**purpose**
 >>respond to other information
+>
 >**state**
 >>comments: Post -> set Content
 >>author: Content -> one User
@@ -87,6 +88,7 @@ The internet is full of so much information, but along with that information com
 >
 >**purpose**
 >>show approval or disapproval of information
+>
 >**state**
 >>likes, dislikes: Post -> set User  
 >
@@ -116,6 +118,7 @@ The internet is full of so much information, but along with that information com
 >
 >**purpose**
 >>show agreement or disagreement with the truthfulness of information
+>
 >**state**
 >>trusts, mistrusts: Post -> set User  
 >
