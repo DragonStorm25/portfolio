@@ -95,15 +95,15 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 #### Trust
->**concept** Trust \[Post]
+>**concept** Trust \[Post, User]
 >
 >**purpose**
 >
 >**state**
 >
-> trusts: Post -> Integer
+> trusts: Post -> set User
 >
-> mistrusts: Post -> Integer
+> mistrusts: Post -> set User
 >
 >**actions**
 >
