@@ -75,20 +75,20 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
->   likes: Post -> set User  
->   dislikes: Post -> set User
+>>likes: Post -> set User  
+>>dislikes: Post -> set User
 >
 >**actions**
 >
->   like(p: Post, u: User)  
->       associate u with p in likes  
->       when u is associated with p in dislikes  
->       remove the association of u to p in dislikes
+>>like(p: Post, u: User)  
+>>>associate u with p in likes  
+>>>when u is associated with p in dislikes  
+>>>remove the association of u to p in dislikes
 >
->   dislike(p: Post, u: User)  
->       associate u with p in dislikes  
->       when u is associated with p in likes  
->       remove the association of u to p in likes
+>>dislike(p: Post, u: User)  
+>>>associate u with p in dislikes  
+>>>when u is associated with p in likes  
+>>>remove the association of u to p in likes
 >
 >**operational principle**
 
