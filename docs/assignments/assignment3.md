@@ -14,6 +14,12 @@ The internet is full of so much information, but along with that information com
 
 ```
 **concept** User
+
+**purpose**
+
+**state**
+
+**operational principle**
 ```
 
 **concept** Session
