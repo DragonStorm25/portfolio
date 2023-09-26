@@ -52,6 +52,7 @@ The internet is full of so much information, but along with that information com
 >>post(u: User, up: Post, c: Content)
 >>>store c as content of up  
 >>>associate up with u in posts  
+>  
 >>unpost(u: User, up: Post)
 >>>when up belongs to some user's posts  
 >>>remove up from that user's posts  
@@ -74,6 +75,7 @@ The internet is full of so much information, but along with that information com
 >>comment(p: Post, u: User, c: Content)  
 >>>associate c with p in comments  
 >>>store u as author c is from  
+>  
 >>uncomment(u: User, c: Content)  
 >>>when the author of c is u  
 >>>remove association of c to p  
@@ -96,10 +98,12 @@ The internet is full of so much information, but along with that information com
 >>>associate u with p in likes  
 >>>when u is associated with p in dislikes  
 >>>remove the association of u to p in dislikes  
+>  
 >>dislike(p: Post, u: User)  
 >>>associate u with p in dislikes  
 >>>when u is associated with p in likes  
 >>>remove the association of u to p in likes  
+>  
 >>neutralize(p: Post, u: User)
 >>>when u is associated with p in likes  
 >>>remove the association of u with p in likes  
@@ -124,10 +128,12 @@ The internet is full of so much information, but along with that information com
 >>>associate u with p in trusts  
 >>>when u is associated with p in mistrusts  
 >>>remove the association of u to p in mistrusts  
+>  
 >>mistrust(p: Post, u: User)  
 >>>associate u with p in mistrusts  
 >>>when u is associated with p in trusts  
 >>>remove the association of u to p in trusts  
+>  
 >>neutralize(p: Post, u: User)
 >>>when u is associated with p in trusts  
 >>>remove the association of u with p in trusts  
