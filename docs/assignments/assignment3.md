@@ -4,3 +4,11 @@ layout: doc
 ---
 
 # Assignment 3: Convergent Design
+
+## Pitch
+
+## Functional Design
+
+## Wireframe
+
+## Design Tradeoffs
