@@ -59,10 +59,10 @@ The internet is full of so much information, but along with that information com
 >      comments: Post -> set Comment
 >
 >**actions**
->
+>  
 >      comment(p: Post, u: User, s: String)  
 >        add s under the post p with author u
->
+>  
 >      uncomment(c: Comment, u: User)  
 >        when c was posted by u  
 >        delete c from under post  
