@@ -76,21 +76,21 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
->  likes: Post -> set User
+>   likes: Post -> set User
 >
->  dislikes: Post -> set User
+>   dislikes: Post -> set User
 >
 >**actions**
 >
->  like(p: Post, u: User)  
->    associate u with p in likes  
->    when u is associated with p in dislikes  
->    remove the association of u to p in dislikes
+>   like(p: Post, u: User)  
+>       associate u with p in likes  
+>       when u is associated with p in dislikes  
+>       remove the association of u to p in dislikes
 >
->  dislike(p: Post, u: User)  
->    associate u with p in dislikes  
->    when u is associated with p in likes  
->    remove the association of u to p in likes
+>   dislike(p: Post, u: User)  
+>       associate u with p in dislikes  
+>       when u is associated with p in likes  
+>       remove the association of u to p in likes
 >
 >**operational principle**
 
@@ -101,21 +101,21 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
->  trusts: Post -> set User
+>   trusts: Post -> set User
 >
->  mistrusts: Post -> set User
+>   mistrusts: Post -> set User
 >
 >**actions**
 >
->  trust(p: Post, u: User)  
->    associate u with p in trusts  
->    when u is associated with p in mistrusts  
->    remove the association of u to p in mistrusts
+>   trust(p: Post, u: User)  
+>       associate u with p in trusts  
+>       when u is associated with p in mistrusts  
+>       remove the association of u to p in mistrusts
 >
->  mistrust(p: Post, u: User)  
->    associate u with p in mistrusts  
->    when u is associated with p in trusts  
->    remove the association of u to p in trusts
+>   mistrust(p: Post, u: User)  
+>       associate u with p in mistrusts  
+>       when u is associated with p in trusts  
+>       remove the association of u to p in trusts
 >
 >**operational principle**
 
