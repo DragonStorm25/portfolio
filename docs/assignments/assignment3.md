@@ -76,8 +76,7 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
->   likes: Post -> set User
->
+>   likes: Post -> set User  
 >   dislikes: Post -> set User
 >
 >**actions**
@@ -101,8 +100,7 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
->   trusts: Post -> set User
->
+>   trusts: Post -> set User  
 >   mistrusts: Post -> set User
 >
 >**actions**
