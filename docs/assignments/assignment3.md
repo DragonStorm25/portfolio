@@ -39,14 +39,16 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 #### Post
->**concept** post \[User]
+>**concept** post \[User, Content]
 >
 >**purpose**
 >
 >**state**
->>posts: User -> set Post
+>>posts: User -> set Content
 >
 >**actions**
+>>post(u: User, c: Content)
+>>>associate c with u in posts
 >
 >**operational principle**
 
