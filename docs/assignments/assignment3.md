@@ -39,20 +39,20 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 #### Post
->**concept** post \[User, UserPost, Content]
+>**concept** post \[User, Post, Content]
 >
 >**purpose**
 >share information with others
 >**state**
->>posts: User -> set UserPost  
->>content: UserPost -> Content
+>>posts: User -> set Post  
+>>content: Post -> Content
 >
 >**actions**
->>post(u: User, up: UserPost, c: Content)
+>>post(u: User, up: Post, c: Content)
 >>>store c as content of up  
 >>>associate up with u in posts
 >
->>unpost(u: User, up: UserPost)
+>>unpost(u: User, up: Post)
 >>>when up belongs to some user's posts  
 >>>remove up from that user's posts  
 >>>forget content of up
