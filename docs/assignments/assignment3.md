@@ -130,6 +130,12 @@ The internet is full of so much information, but along with that information com
 >>>when u is associated with p in trusts  
 >>>remove the association of u to p in trusts
 >
+>>neutralize(p: Post, u: User)
+>>>when u is associated with p in trusts
+>>>remove the association of u with p in trusts
+>>>when u is associated with p in mistrusts
+>>>remove the association of u with p in mistrusts
+>
 >**operational principle**
 
 ### Synchronizations
