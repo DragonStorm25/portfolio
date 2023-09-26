@@ -13,15 +13,19 @@ The internet is full of so much information, but along with that information com
 ### Concept List
 
 >**concept** User
+>
 >**purpose**
 > to represent a single person using RealTalk
+>
 >**state**
 > karma: Integer
+>
 >**actions**
 >
 >**operational principle**
 
 >**concept** Session
+>
 >**purpose**
 >
 >**state**
@@ -31,6 +35,7 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 >**concept** Post
+>
 >**purpose**
 >
 >**state**
@@ -40,24 +45,29 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 >**concept** Comment \[Post, User]
+>
 >**purpose**
 >
 >**state**
 > comments: Post -> set Comment
+>
 >**actions**
 > comment(p: Post, u: User, s: String)
 >   add s under the post p with author u
 > uncomment(c: Comment, u: User)
 >   when c was posted by u
 >   delete c from under post
+>
 >**operational principle**
 
 >**concept** Like \[Post, User]
+>
 >**purpose**
 >
 >**state**
 > likes: Post -> set User
 > dislikes: Post -> set User
+>
 >**actions**
 > like(p: Post, u: User)
 >   associate u with p in likes
@@ -67,14 +77,17 @@ The internet is full of so much information, but along with that information com
 >   associate u with p in dislikes
 >   when u is associated with p in likes
 >   remove the association of u to p in likes
+>
 >**operational principle**
 
 >**concept** Trust \[Post]
+>
 >**purpose**
 >
 >**state**
 > trusts: Post -> Integer
 > mistrusts: Post -> Integer
+>
 >**actions**
 >
 >**operational principle**
