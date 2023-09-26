@@ -101,6 +101,12 @@ The internet is full of so much information, but along with that information com
 >>>when u is associated with p in likes  
 >>>remove the association of u to p in likes
 >
+>>neutralize(p: Post, u: User)
+>>>when u is associated with p in likes
+>>>remove the association of u with p in likes
+>>>when u is associated with p in dislikes
+>>>remove the association of u with p in dislikes
+>
 >**operational principle**
 
 #### Trust
