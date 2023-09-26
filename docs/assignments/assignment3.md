@@ -39,11 +39,12 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 
 #### Post
->**concept** post
+>**concept** post \[User]
 >
 >**purpose**
 >
 >**state**
+>>posts: User -> set Post
 >
 >**actions**
 >
