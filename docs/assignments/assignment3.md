@@ -12,29 +12,61 @@ The internet is full of so much information, but along with that information com
 
 ### Concept List
 
-```
-<pre>
-<b>concept</b> User
+>**concept** User
+>
+>**purpose**
+>
+>**state**
+>
+>**operational principle**
 
-**purpose**
+>**concept** Session
+>
+>**purpose**
+>
+>**state**
+>
+>**operational principle**
 
-**state**
+>**concept** Post
+>
+>**purpose**
+>
+>**state**
+>
+>**operational principle**
 
-**operational principle**
-</pre>
-```
+>**concept** Comment
+>
+>**purpose**
+>
+>**state**
+>
+>**operational principle**
 
-**concept** Session
+>**concept** Like/Dislike
+>
+>**purpose**
+>
+>**state**
+>
+>**operational principle**
 
-**concept** Post
+>**concept** Trust/Mistrust
+>
+>**purpose**
+>
+>**state**
+>
+>**operational principle**
 
-**concept** Comment
-
-**concept** Like/Dislike
-
-**concept** Trust/Mistrust
-
-**concept** Karma
+>**concept** Karma
+>
+>**purpose**
+>
+>**state**
+>
+>**operational principle**
 
 ### Synchronizations
 
