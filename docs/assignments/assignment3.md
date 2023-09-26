@@ -14,7 +14,7 @@ The internet is full of so much information, but along with that information com
 
 >**concept** User
 >**purpose**
-> 
+> to represent a single person using RealTalk
 >**state**
 > karma: Integer
 >**operational principle**
