@@ -43,6 +43,7 @@ The internet is full of so much information, but along with that information com
 >
 >**purpose**
 >>share information with others
+>
 >**state**
 >>posts: User -> set Post  
 >>content: Post -> Content
