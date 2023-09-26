@@ -101,6 +101,16 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >
+> trust(p: Post, u: User)
+>   associate u with p in trusts
+>   when u is associated with p in mistrusts
+>   remove the association of u to p in mistrusts
+>
+> mistrust(p: Post, u: User)
+>   associate u with p in mistrusts
+>   when u is associated with p in trusts
+>   remove the association of u to p in trusts
+>
 >**operational principle**
 
 ### Synchronizations
