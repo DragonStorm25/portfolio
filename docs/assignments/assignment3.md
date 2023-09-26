@@ -48,7 +48,7 @@ The internet is full of so much information, but along with that information com
 > dislikes: Post -> Integer
 >**operational principle**
 
->**concept** Trust/Mistrust \[Post]
+>**concept** Trust \[Post]
 >**purpose**
 >
 >**state**
