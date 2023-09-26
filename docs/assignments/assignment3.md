@@ -107,7 +107,7 @@ The internet is full of so much information, but along with that information com
 >**concept** trust \[Post, User]
 >
 >**purpose**
->
+>>show agreement or disagreement with the truthfulness of information
 >**state**
 >>trusts, mistrusts: Post -> set User  
 >
