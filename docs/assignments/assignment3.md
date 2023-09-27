@@ -167,6 +167,8 @@ The internet is full of so much information, but along with that information com
 >>>associate u with -1  
 >
 >**operational principle**
+>>after increase(u) until increase(u) or decrease(u), the integer associated to u is 1 more than before  
+>>after decrease(u) until increase(u) or decrease(u), the integer associated to u is 1 less than before
 
 ### Synchronizations
 
