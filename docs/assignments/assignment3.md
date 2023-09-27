@@ -137,7 +137,7 @@ The internet is full of so much information, but along with that information com
 >>mistrust(t: Target, u: User)  
 >>>t.mistrusts += u  
 >>>when u in t.trusts
->>>t.mistrusts -= u  
+>>>t.trusts -= u  
 >  
 >>neutralize(t: Target, u: User)
 >>>when u in t.trusts
