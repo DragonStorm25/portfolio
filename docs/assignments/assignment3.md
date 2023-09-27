@@ -277,22 +277,22 @@ The internet is full of so much information, but along with that information com
 >>>Comment.uncomment(t, u, c)
 >
 >>sync like(u: User, t: Target)
->>>Like.neutralize(t, u)
+>>>Like.neutralize(t, u)  
 >>>Like.like(t, u)
 >
 >>sync dislike(u: User, t: Target)
->>>Like.neutralize(t, u)
+>>>Like.neutralize(t, u)  
 >>>Like.dislike(t, u)
 >
 >>sync neutralLike(u: User, t: Target)
 >>>Like.neutralize(t, u)
 >
 >>sync trust(u: User, t: Target)
->>>Trust.neutralize(t, u)
+>>>Trust.neutralize(t, u)  
 >>>Trust.trust(t, u)
 >
 >>sync mistrust(u: User, t: Target)
->>>Trust.neutralize(t, u)
+>>>Trust.neutralize(t, u)  
 >>>Trust.mistrust(t, u)
 >
 >>sync neutralTrust(u: User, t: Target)
