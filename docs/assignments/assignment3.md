@@ -272,9 +272,13 @@ The internet is full of so much information, but along with that information com
 
 >**concept** UserReact
 >>include User  
+>>include Target  
+>>include Content  
 >>include Comment  
 >>include Like  
 >>include Trust  
+>
+>>
 </details>
 
 ### Dependency Diagram
