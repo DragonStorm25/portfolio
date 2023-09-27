@@ -105,26 +105,26 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>Post State Machine</summary>  
 
->**concept** Post \[User, UserPost, Content]
+>**concept** Post \[User, Content]
 >
 >**purpose** share content with others
 >
 >**state**
->>posts: User -> set UserPost  
->>content: UserPost -> Content
+>>posts: User -> set Post  
+>>content: Post -> Content
 >
 >**actions**
->>post(u: User, up: UserPost, c: Content)
->>>up.content := c  
->>>u.posts += up  
+>>post(u: User, p: Post, c: Content)
+>>>p.content := c  
+>>>u.posts += p  
 >  
->>unpost(u: User, up: UserPost)
->>>when up in u.posts
->>>u.posts -= up  
->>>forget content of up  
+>>unpost(u: User, p: Post)
+>>>when p in u.posts
+>>>u.posts -= p  
+>>>forget content of p  
 >
 >**operational principle**
->>after post(u, up, c) until unpost(u, up), up in u.posts
+>>after post(u, p, c) until unpost(u, p), p in u.posts
 </details>
 
 #### Comment
