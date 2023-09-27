@@ -307,6 +307,12 @@ The internet is full of so much information, but along with that information com
 >include User  
 >include Friend \[User.User]  
 >include Karma \[User.User]  
+>
+>>sync friend(u1, u2: User)
+>>>Friend.friend(u1, u2)
+>
+>>sync unfriend(u1, u2: User)
+>>>Friend.unfriend(u1, u2)
 </details>
 
 ### Dependency Diagram
