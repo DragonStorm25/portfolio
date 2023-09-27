@@ -59,7 +59,7 @@ The internet is full of so much information, but along with that information com
 >>>u.posts += p  
 >  
 >>unpost(u: User, p: Post)
->>>when p belongs to some user's posts  
+>>>when p in u.posts
 >>>u.posts -= p  
 >>>forget content of p  
 >
@@ -101,18 +101,18 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>like(t: Target, u: User)  
 >>>t.likes += u  
->>>when u is associated with t in dislikes  
+>>>when u in t.dislikes
 >>>t.dislikes -= u  
 >  
 >>dislike(t: Target, u: User)  
 >>>t.dislikes += u  
->>>when u is associated with t in likes  
+>>>when u in t.likes
 >>>t.dislikes -= u  
 >  
 >>neutralize(t: Target, u: User)
->>>when u is associated with t in likes  
+>>>when u in t.likes
 >>>t.likes -= u  
->>>when u is associated with t in dislikes  
+>>>when u in t.dislikes 
 >>>t.dislikes -= u  
 >
 >**operational principle**
@@ -131,18 +131,18 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>trust(t: Target, u: User)  
 >>>t.trusts += u  
->>>when u is associated with t in mistrusts  
+>>>when u in t.mistrusts
 >>>t.mistrusts -= u  
 >  
 >>mistrust(t: Target, u: User)  
 >>>t.mistrusts += u  
->>>when u is associated with t in trusts  
+>>>when u in t.trusts
 >>>t.mistrusts -= u  
 >  
 >>neutralize(t: Target, u: User)
->>>when u is associated with t in trusts  
+>>>when u in t.trusts
 >>>t.trusts -= u  
->>>when u is associated with t in mistrusts  
+>>>when u in t.mistrusts
 >>>t.mistrusts -= u  
 >
 >**operational principle**
