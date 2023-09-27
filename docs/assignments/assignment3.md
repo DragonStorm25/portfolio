@@ -337,7 +337,7 @@ The internet is full of so much information, but along with that information com
 >>>Friend.unfriend(u1, u2)
 >
 >>sync areFriends(u1, u2: User, out b: Boolean)
->>>b := Friend.areFriends(u1, u2)
+>>>Friend.areFriends(u1, u2, b)
 >
 >>sync makePost(u: User, c: Content, out p: Post)
 >>>Post.post(u, c, p)
