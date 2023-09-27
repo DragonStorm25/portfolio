@@ -280,12 +280,12 @@ The internet is full of so much information, but along with that information com
 >>>Like.neutralize(t, u)
 >>>Like.like(t, u)
 >
->>sync neutralLike(u: User, t: Target)
->>>Like.neutralize(t, u)
->
 >>sync dislike(u: User, t: Target)
 >>>Like.neutralize(t, u)
 >>>Like.dislike(t, u)
+>
+>>sync neutralLike(u: User, t: Target)
+>>>Like.neutralize(t, u)
 </details>
 
 ### Dependency Diagram
