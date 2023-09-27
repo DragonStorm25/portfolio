@@ -71,12 +71,12 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >>comment(p: Post, u: User, c: Content)  
->>>associate c with p in comments  
+>>>p.comments += c
 >>>store u as author c is from  
 >  
 >>uncomment(u: User, c: Content)  
 >>>when the author of c is u  
->>>remove association of c to p  
+>>>p.comments -= c
 >>>forget author of c  
 >
 >**operational principle**
