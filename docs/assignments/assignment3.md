@@ -266,9 +266,9 @@ The internet is full of so much information, but along with that information com
 >>include User  
 >>include Target  
 >>include Content  
->>include Comment  
->>include Like  
->>include Trust  
+>>include Comment \[Target.Target, User.User, Content.Content]  
+>>include Like \[Target.Target, User.User]  
+>>include Trust \[Target.Target, User.User]  
 >
 >>sync comment(u: User, t: Target, c: Content)
 >>>Comment.comment(t, u, c)
