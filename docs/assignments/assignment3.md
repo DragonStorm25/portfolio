@@ -245,6 +245,19 @@ The internet is full of so much information, but along with that information com
 ### Synchronizations
 
 #### UserSession
+<details>
+<summary>UserSession State Machine</summary>  
+
+>**concept** UserSession
+>
+>**purpose** 
+>
+>**state**
+>
+>**actions**
+>
+>**operational principle**
+</details>
 
 #### UserReact
 
