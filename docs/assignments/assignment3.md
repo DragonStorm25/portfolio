@@ -26,6 +26,15 @@ The internet is full of so much information, but along with that information com
 >>username, password: registered -> one String
 >
 >**actions**
+>>register(n: String, p: String, out u: User)
+>>>u not in registered
+>>>registered += u
+>>>u.username := n
+>>>u.passowrd := p
+>
+>>authenticate(n: String, p: String, out u: User)
+>>>u in registered
+>>>u.username = n and u.password = p
 >
 >**operational principle**
 </details>
