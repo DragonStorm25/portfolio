@@ -31,6 +31,7 @@ The internet is full of so much information, but along with that information com
 >>increase connections between others
 >
 >**state**
+>>friends: User -> set User
 >
 >**actions**
 >
