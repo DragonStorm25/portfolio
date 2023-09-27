@@ -275,6 +275,7 @@ The internet is full of so much information, but along with that information com
 >>include Comment \[Target.Target, User.User, Content.Content]  
 >>include Like \[Target.Target, User.User]  
 >>include Trust \[Target.Target, User.User]  
+>>include Karma \[User.User]
 >
 >>sync comment(u: User, t: Target, c: Content)
 >>>Comment.comment(t, u, c)
@@ -296,10 +297,12 @@ The internet is full of so much information, but along with that information com
 >>sync trust(u: User, t: Target)
 >>>Trust.neutralize(t, u)  
 >>>Trust.trust(t, u)
+>>>Karma.increase(u)
 >
 >>sync mistrust(u: User, t: Target)
 >>>Trust.neutralize(t, u)
 >>>Trust.mistrust(t, u)
+>>>Karma.decrease(u)
 >
 >>sync neutralTrust(u: User, t: Target)
 >>>Trust.neutralize(t, u)
