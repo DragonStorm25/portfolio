@@ -48,12 +48,12 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >>post(u: User, p: Post, c: Content)
->>>store c as content of p  
->>>associate p with u in posts  
+>>>p.content := c  
+>>>u.posts += p  
 >  
 >>unpost(u: User, p: Post)
 >>>when p belongs to some user's posts  
->>>remove p from that user's posts  
+>>>u.posts -= p  
 >>>forget content of p  
 >
 >**operational principle**
