@@ -14,7 +14,7 @@ The internet is full of so much information, but along with that information com
 
 #### User
 <details>
-<summary>User Concept</summary>  
+<summary>User State Machine</summary>  
 
 >**concept** user
 >
@@ -30,7 +30,7 @@ The internet is full of so much information, but along with that information com
 
 #### Friend
 <details>
-<summary>User Concept</summary>  
+<summary>Friend State Machine</summary>  
 
 >**concept** friend
 >
@@ -57,7 +57,7 @@ The internet is full of so much information, but along with that information com
 
 #### Post
 <details>
-<summary>User Concept</summary>  
+<summary>Post State Machine</summary>  
 
 >**concept** post \[User, Post, Content]
 >
@@ -84,7 +84,7 @@ The internet is full of so much information, but along with that information com
 
 #### Comment
 <details>
-<summary>User Concept</summary>  
+<summary>Comment State Machine</summary>  
 
 >**concept** comment \[Target, User, Content]
 >
@@ -111,7 +111,7 @@ The internet is full of so much information, but along with that information com
 
 #### Like
 <details>
-<summary>User Concept</summary>  
+<summary>Like State Machine</summary>  
 
 >**concept** like \[Target, User]
 >
@@ -145,7 +145,7 @@ The internet is full of so much information, but along with that information com
 
 #### Trust
 <details>
-<summary>User Concept</summary>  
+<summary>Trust State Machine</summary>  
 
 >**concept** trust \[Target, User]
 >
@@ -179,7 +179,7 @@ The internet is full of so much information, but along with that information com
 
 #### Karma
 <details>
-<summary>User Concept</summary>  
+<summary>Karma State Machine</summary>  
 
 >**concept** karma \[User]
 >
