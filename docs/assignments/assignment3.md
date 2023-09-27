@@ -169,7 +169,7 @@ The internet is full of so much information, but along with that information com
     a.  
     b.  
     c.  
-2.  
+2.  Posts Created by Authenticated Users vs. Anonymous Users
     a.  
     b.  
     c.  
