@@ -278,7 +278,9 @@ The internet is full of so much information, but along with that information com
 >>include Like  
 >>include Trust  
 >
->>
+>>sync comment(u: User, t: Target, c: Content)
+>>>Comment.comment(t, u, c)
+>
 </details>
 
 ### Dependency Diagram
