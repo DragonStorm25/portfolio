@@ -353,13 +353,13 @@ The internet is full of so much information, but along with that information com
 ## Design Tradeoffs
 
 1.  
-    a. Only Using Likes vs Using Likes and Dislikes  
-    b.  
-    c.  
+    a. Like System  
+    b. Likes vs. likes and dislikes  
+    c. 
 2.  
-    a. Posts Created by Authenticated Users vs. Anonymous Users  
-    b.  
-    c.  
+    a. Post Creation Options  
+    b. Only registered users can create posts vs even anonymous users can create posts  
+    c. 
 3.  
     a.  
     b.  
