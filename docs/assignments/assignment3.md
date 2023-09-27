@@ -309,7 +309,7 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>UserProfile Sync State Machine</summary>  
 
->**concept** UserProfile
+>**concept** UserProfile  
 >include User  
 >include Friend \[User.User]  
 >include Karma \[User.User]  
