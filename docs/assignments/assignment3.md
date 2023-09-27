@@ -28,6 +28,7 @@ The internet is full of so much information, but along with that information com
 >**concept** friend
 >
 >**purpose**
+>>increase connections between others
 >
 >**state**
 >
