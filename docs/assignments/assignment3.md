@@ -359,7 +359,7 @@ The internet is full of so much information, but along with that information com
 2.  
     a. Post Creation Options  
     b. Only registered users can create posts vs even anonymous users can create posts  
-    c. 
+    c. The main design of RealTalk is to push true information and to reduce misinformation. If anonymous users could make posts, they would be able to post large amounts of misinformation without their account getting flagged or pushed down in the algorithm, as they have no account.
 3.  
     a.  
     b.  
