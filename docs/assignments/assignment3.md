@@ -25,6 +25,17 @@ The internet is full of so much information, but along with that information com
 >
 >**operational principle**
 
+#### Friend
+>**concept** friend
+>
+>**purpose**
+>
+>**state**
+>
+>**actions**
+>
+>**operational principle**
+
 #### Post
 >**concept** post \[User, Post, Content]
 >
