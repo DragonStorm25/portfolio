@@ -348,6 +348,10 @@ The internet is full of so much information, but along with that information com
 
 ### Dependency Diagram
 
+Solid outline shapes are specific concepts. Dashed outline shapes are generic concepts.
+
+![Dependency diagram](../images/DependencyGraphA3.png)
+
 ## Wireframe
 
 ## Design Tradeoffs
