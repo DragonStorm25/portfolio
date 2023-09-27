@@ -267,6 +267,13 @@ The internet is full of so much information, but along with that information com
 </details>
 
 #### UserReact
+<details>
+<summary>UserReact Sync State Machine</summary>  
+
+>**concept** UserSession
+>>include User  
+>
+</details>
 
 ### Dependency Diagram
 
