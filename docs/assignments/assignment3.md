@@ -276,6 +276,16 @@ The internet is full of so much information, but along with that information com
 >>sync uncomment(u: User, t: Target, c: Content)
 >>>Comment.uncomment(t, u, c)
 >
+>>sync like(u: User, t: Target)
+>>>Like.neutralize(t, u)
+>>>Like.like(t, u)
+>
+>>sync neutralLike(u: User, t: Target)
+>>>Like.neutralize(t, u)
+>
+>>sync dislike(u: User, t: Target)
+>>>Like.neutralize(t, u)
+>>>Like.dislike(t, u)
 </details>
 
 ### Dependency Diagram
