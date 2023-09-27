@@ -359,7 +359,7 @@ Solid outline shapes are specific concepts. Dashed outline shapes are generic co
 1.  
     **a.** Like System  
     **b.** Likes vs. likes and dislikes  
-    **c.** 
+    **c.** A system with only likes can only really gauge the positive reactions to a post or comment, not the negative ones. We can approximate the dislikes by subtracting the likes from the views and multiplying by some constant, but any constant that we use would give terrible results for some kinds of posts or comments. With dislikes, the algorithm can accurately gauge the relative strength of negative feelings towards a post or comment.
 2.  
     **a.** Post Creation Options  
     **b.** Only registered users can create posts vs even anonymous users can create posts  
