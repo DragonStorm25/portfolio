@@ -365,6 +365,6 @@ Solid outline shapes are specific concepts. Dashed outline shapes are generic co
     **b.** Only registered users can create posts vs anonymous users can create posts  
     **c.** The main design of RealTalk is to push true information and to reduce misinformation. If anonymous users could make posts, they would be able to post large amounts of misinformation without their account getting flagged or pushed down in the algorithm, as they have no account.
 3.  
-    **a.**  
-    **b.**  
-    **c.**  
+    **a.** Where Likes/Dislikes and Trusts/Mistrusts Can Be Applied
+    **b.** Only posts vs posts and comments
+    **c.** To ensure that as much misinformation is removed as possible, comments should also be subject to the same community-based trust/mistrust system that posts have. If a comment is sufficiently deemed mistrustful, it can be hidden to further reduce misinformation.
