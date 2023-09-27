@@ -72,34 +72,34 @@ The internet is full of so much information, but along with that information com
 >>after comment(t, u, c) until uncomment(u, c), c in t.comments and u is author of c
 
 #### Like
->**concept** like \[Post, User]
+>**concept** like \[Target, User]
 >
 >**purpose**
 >>show approval or disapproval of information
 >
 >**state**
->>likes, dislikes: Post -> set User  
+>>likes, dislikes: Target -> set User  
 >
 >**actions**
->>like(p: Post, u: User)  
->>>p.likes += u  
->>>when u is associated with p in dislikes  
->>>p.dislikes -= u  
+>>like(t: Target, u: User)  
+>>>t.likes += u  
+>>>when u is associated with t in dislikes  
+>>>t.dislikes -= u  
 >  
->>dislike(p: Post, u: User)  
->>>p.dislikes += u  
->>>when u is associated with p in likes  
->>>p.dislikes -= u  
+>>dislike(t: Target, u: User)  
+>>>t.dislikes += u  
+>>>when u is associated with t in likes  
+>>>t.dislikes -= u  
 >  
->>neutralize(p: Post, u: User)
->>>when u is associated with p in likes  
->>>p.likes -= u  
->>>when u is associated with p in dislikes  
->>>p.dislikes -= u  
+>>neutralize(t: Target, u: User)
+>>>when u is associated with t in likes  
+>>>t.likes -= u  
+>>>when u is associated with t in dislikes  
+>>>t.dislikes -= u  
 >
 >**operational principle**
->>after like(p, u) until dislike(p, u) or neutralize(p, u), u in p.likes  
->>after dislike(p, u) until like(p, u) or neutralize(p, u), u in p.dislikes
+>>after like(t, u) until dislike(t, u) or neutralize(t, u), u in t.likes  
+>>after dislike(t, u) until like(t, u) or neutralize(t, u), u in t.dislikes
 
 #### Trust
 >**concept** trust \[Post, User]
