@@ -73,7 +73,7 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>Friend State Machine</summary>  
 
->**concept** Friend
+>**concept** Friend \[User]
 >
 >**purpose** increase connections between others
 >
