@@ -326,9 +326,8 @@ The internet is full of so much information, but along with that information com
 
 >**concept** UserProfile  
 >include User  
->include UserPost  
 >include Content  
->include Post  \[User.User, UserPost.UserPost, Content.Content]
+>include Post  \[User.User, Content.Content]
 >include Friend \[User.User]  
 >
 >>sync friend(u1, u2: User)
