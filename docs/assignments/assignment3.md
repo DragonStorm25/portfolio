@@ -175,3 +175,9 @@ The internet is full of so much information, but along with that information com
 ## Wireframe
 
 ## Design Tradeoffs
+
+1. 
+
+2. 
+
+3. 
