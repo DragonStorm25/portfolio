@@ -48,6 +48,8 @@ The internet is full of so much information, but along with that information com
 >**purpose** authenticate users for an extended period of time
 >
 >**state**
+>>active: set Session
+>>curUser: active -> one User
 >
 >**actions**
 >
