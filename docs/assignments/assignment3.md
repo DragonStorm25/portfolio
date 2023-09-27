@@ -13,6 +13,9 @@ The internet is full of so much information, but along with that information com
 ### Concept List
 
 #### User
+<details>
+<summary>User Concept</summary>  
+
 >**concept** user
 >
 >**purpose**
@@ -23,8 +26,12 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >
 >**operational principle**
+</details>
 
 #### Friend
+<details>
+<summary>User Concept</summary>  
+
 >**concept** friend
 >
 >**purpose**
@@ -46,8 +53,12 @@ The internet is full of so much information, but along with that information com
 >
 >**operational principle**
 >>after friend(u1, u2) until unfriend(u1, u2), u2 in u1.friends and u1 in u2.friends 
+</details>
 
 #### Post
+<details>
+<summary>User Concept</summary>  
+
 >**concept** post \[User, Post, Content]
 >
 >**purpose**
@@ -69,8 +80,12 @@ The internet is full of so much information, but along with that information com
 >
 >**operational principle**
 >>after post(u, p, c) until unpost(u, p), p in u.posts
+</details>
 
 #### Comment
+<details>
+<summary>User Concept</summary>  
+
 >**concept** comment \[Target, User, Content]
 >
 >**purpose**
@@ -92,8 +107,12 @@ The internet is full of so much information, but along with that information com
 >
 >**operational principle**
 >>after comment(t, u, c) until uncomment(u, c), c in t.comments and u is author of c
+</details>
 
 #### Like
+<details>
+<summary>User Concept</summary>  
+
 >**concept** like \[Target, User]
 >
 >**purpose**
@@ -122,8 +141,12 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 >>after like(t, u) until dislike(t, u) or neutralize(t, u), u in t.likes  
 >>after dislike(t, u) until like(t, u) or neutralize(t, u), u in t.dislikes
+</details>
 
 #### Trust
+<details>
+<summary>User Concept</summary>  
+
 >**concept** trust \[Target, User]
 >
 >**purpose**
@@ -152,8 +175,12 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 >>after trust(t, u) until mistrust(t, u) or neutralize(t, u), u in t.trusts  
 >>after mistrust(t, u) until trust(t, u) or neutralize(t, u), u in t.mistrusts
+</details>
 
 ### Karma
+<details>
+<summary>User Concept</summary>  
+
 >**concept** karma \[User]
 >
 >**purpose**
@@ -178,6 +205,7 @@ The internet is full of so much information, but along with that information com
 >**operational principle**
 >>after increase(u) until increase(u) or decrease(u), u.karma is 1 more than before  
 >>after decrease(u) until increase(u) or decrease(u), u.karma is 1 less than before
+</details>
 
 ### Synchronizations
 
