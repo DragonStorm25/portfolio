@@ -244,6 +244,10 @@ The internet is full of so much information, but along with that information com
 
 ### Synchronizations
 
+#### UserSession
+
+#### UserReact
+
 ### Dependency Diagram
 
 ## Wireframe
