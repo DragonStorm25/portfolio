@@ -36,10 +36,13 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>friend(u1: User, u2: User)
 >>>u1.friends += u2
+>>>u2.friends += u1
 >
 >>unfriend(u1: User, u2: User)
 >>>when u2 in u1.friends
 >>>u1.friends -= u2
+>>>when u1 in u2.friends
+>>>u2.friends -= u1
 >
 >**operational principle**
 
