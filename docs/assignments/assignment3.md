@@ -352,12 +352,12 @@ The internet is full of so much information, but along with that information com
 
 ## Design Tradeoffs
 
-1. Only Using Likes vs Using Likes and Dislikes  
-    a.  
+1.  
+    a. Only Using Likes vs Using Likes and Dislikes  
     b.  
     c.  
-2.  Posts Created by Authenticated Users vs. Anonymous Users
-    a.  
+2.  
+    a. Posts Created by Authenticated Users vs. Anonymous Users  
     b.  
     c.  
 3.  
