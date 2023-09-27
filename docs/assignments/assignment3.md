@@ -154,15 +154,15 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>increase(u: User)
 >>>when u in karma  
->>>increase the integer associated to u by 1  
+>>>u.karma := u.karma + 1 
 >>>when u not in karma  
->>>associate u with 1  
+>>>u.karma := 1
 >
 >>decrease(u: User)
 >>>when u in karma  
->>>decrease the integer associated to u by 1  
+>>>u.karma := u.karma - 1 
 >>>when u not in karma  
->>>associate u with -1  
+>>>u.karma := -1
 >
 >**operational principle**
 >>after increase(u) until increase(u) or decrease(u), the integer associated to u is 1 more than before  
