@@ -317,6 +317,9 @@ The internet is full of so much information, but along with that information com
 >
 >>sync unfriend(u1, u2: User)
 >>>Friend.unfriend(u1, u2)
+>
+>>sync areFriends(u1, u2: User, out b: Boolean)
+>>>b := Friend.isFriend(u1, u2)
 </details>
 
 ### Dependency Diagram
