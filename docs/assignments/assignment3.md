@@ -16,7 +16,6 @@ The internet is full of so much information, but along with that information com
 >**concept** user
 >
 >**purpose**
->
 >>authenticate a partipicant of RealTalk
 >
 >**state**
