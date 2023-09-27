@@ -57,7 +57,7 @@ The internet is full of so much information, but along with that information com
 >>>forget content of p  
 >
 >**operational principle**
->>after post(u, p, c) until unpost(u, p), p in posts
+>>after post(u, p, c) until unpost(u, p), p in u.posts
 
 #### Comment
 >**concept** comment \[Post, User, Content]
@@ -80,7 +80,7 @@ The internet is full of so much information, but along with that information com
 >>>forget author of c  
 >
 >**operational principle**
->>after comment(p, u, c) until uncomment(u, c), c in comments and u is author of c
+>>after comment(p, u, c) until uncomment(u, c), c in p.comments and u is author of c
 
 #### Like
 >**concept** like \[Post, User]
@@ -109,8 +109,8 @@ The internet is full of so much information, but along with that information com
 >>>p.dislikes -= u  
 >
 >**operational principle**
->>after like(p, u) until dislike(p, u) or neutralize(p, u), u in likes  
->>after dislike(p, u) until like(p, u) or neutralize(p, u), u in dislikes
+>>after like(p, u) until dislike(p, u) or neutralize(p, u), u in p.likes  
+>>after dislike(p, u) until like(p, u) or neutralize(p, u), u in p.dislikes
 
 #### Trust
 >**concept** trust \[Post, User]
@@ -139,8 +139,8 @@ The internet is full of so much information, but along with that information com
 >>>p.mistrusts -= u  
 >
 >**operational principle**
->>after trust(p, u) until mistrust(p, u) or neutralize(p, u), u in trusts  
->>after mistrust(p, u) until trust(p, u) or neutralize(p, u), u in mistrusts
+>>after trust(p, u) until mistrust(p, u) or neutralize(p, u), u in p.trusts  
+>>after mistrust(p, u) until trust(p, u) or neutralize(p, u), u in p.mistrusts
 
 ### Karma
 >**concept** karma \[User]
@@ -165,8 +165,8 @@ The internet is full of so much information, but along with that information com
 >>>u.karma := -1  
 >
 >**operational principle**
->>after increase(u) until increase(u) or decrease(u), the integer associated to u is 1 more than before  
->>after decrease(u) until increase(u) or decrease(u), the integer associated to u is 1 less than before
+>>after increase(u) until increase(u) or decrease(u), u.karma is 1 more than before  
+>>after decrease(u) until increase(u) or decrease(u), u.karma is 1 less than before
 
 ### Synchronizations
 
