@@ -63,7 +63,7 @@ The internet is full of so much information, but along with that information com
 >**concept** comment \[Post, User, Content]
 >
 >**purpose**
->>respond to other information
+>>react to other content
 >
 >**state**
 >>comments: Post -> set Content
