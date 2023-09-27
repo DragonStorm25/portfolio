@@ -26,14 +26,14 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >>register(n, p: String, out u: User)
->>>u not in registered
->>>registered += u
->>>u.username := n
->>>u.passowrd := p
+>>>u not in registered  
+>>>registered += u  
+>>>u.username := n  
+>>>u.passowrd := p  
 >
 >>authenticate(n, p: String, out u: User)
->>>u in registered
->>>u.username = n and u.password = p
+>>>u in registered  
+>>>u.username = n and u.password = p  
 >
 >**operational principle**
 >>after register(n, p, u), u in registered and u.username = n and u.password = p
@@ -48,21 +48,21 @@ The internet is full of so much information, but along with that information com
 >**purpose** authenticate users for an extended period of time
 >
 >**state**
->>active: set Session
+>>active: set Session  
 >>curUser: active -> one User
 >
 >**actions**
 >>start(u: User, out s: Session)
->>>s not in active
->>>active += s
+>>>s not in active  
+>>>active += s  
 >>>s.curUser = u
 >
 >>end(s: Session)
->>>s in active
+>>>s in active  
 >>>active -= s
 >
 >>getUser(s: Session, out u: User)
->>>s in active
+>>>s in active  
 >>>u := s.curUser
 >
 >**operational principle**
@@ -82,14 +82,14 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >>friend(u1, u2: User)
->>>u1.friends += u2
->>>u2.friends += u1
+>>>u1.friends += u2  
+>>>u2.friends += u1  
 >
 >>unfriend(u1, u2: User)
->>>when u2 in u1.friends
->>>u1.friends -= u2
->>>when u1 in u2.friends
->>>u2.friends -= u1
+>>>when u2 in u1.friends  
+>>>u1.friends -= u2  
+>>>when u1 in u2.friends  
+>>>u2.friends -= u1  
 >
 >**operational principle**
 >>after friend(u1, u2) until unfriend(u1, u2), u2 in u1.friends and u1 in u2.friends 
@@ -135,12 +135,12 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >>comment(t: Target, u: User, c: Content)  
->>>t.comments += c
+>>>t.comments += c  
 >>>store u as author c is from  
 >  
 >>uncomment(u: User, c: Content)  
 >>>when the author of c is u  
->>>t.comments -= c
+>>>t.comments -= c  
 >>>forget author of c  
 >
 >**operational principle**
@@ -161,18 +161,18 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>like(t: Target, u: User)  
 >>>t.likes += u  
->>>when u in t.dislikes
+>>>when u in t.dislikes  
 >>>t.dislikes -= u  
 >  
 >>dislike(t: Target, u: User)  
 >>>t.dislikes += u  
->>>when u in t.likes
+>>>when u in t.likes  
 >>>t.dislikes -= u  
 >  
 >>neutralize(t: Target, u: User)
->>>when u in t.likes
+>>>when u in t.likes  
 >>>t.likes -= u  
->>>when u in t.dislikes 
+>>>when u in t.dislikes  
 >>>t.dislikes -= u  
 >
 >**operational principle**
@@ -194,18 +194,18 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>trust(t: Target, u: User)  
 >>>t.trusts += u  
->>>when u in t.mistrusts
+>>>when u in t.mistrusts  
 >>>t.mistrusts -= u  
 >  
 >>mistrust(t: Target, u: User)  
 >>>t.mistrusts += u  
->>>when u in t.trusts
+>>>when u in t.trusts  
 >>>t.trusts -= u  
 >  
 >>neutralize(t: Target, u: User)
->>>when u in t.trusts
+>>>when u in t.trusts  
 >>>t.trusts -= u  
->>>when u in t.mistrusts
+>>>when u in t.mistrusts  
 >>>t.mistrusts -= u  
 >
 >**operational principle**
