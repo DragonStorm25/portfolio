@@ -22,6 +22,8 @@ The internet is full of so much information, but along with that information com
 >>authenticate a partipicant of RealTalk
 >
 >**state**
+>>registered: set User  
+>>username, password: registered -> one String
 >
 >**actions**
 >
