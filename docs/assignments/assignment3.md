@@ -43,9 +43,9 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>Session State Machine</summary>
 
->**concept**
+>**concept** Session \[User]
 >
->**purpose**
+>**purpose** authenticate users for an extended period of time
 >
 >**state**
 >
