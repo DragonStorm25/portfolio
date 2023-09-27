@@ -66,6 +66,7 @@ The internet is full of so much information, but along with that information com
 >>>u := s.curUser
 >
 >**operational principle**
+>>after start(u, s) until end(s, u), getUser(s, u') results in u = u'
 </details>
 
 #### Friend
