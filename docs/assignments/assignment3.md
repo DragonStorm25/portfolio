@@ -91,7 +91,7 @@ The internet is full of so much information, but along with that information com
 >>>when u1 in u2.friends  
 >>>u2.friends -= u1  
 >
->>areFriends(u1, u2: User, b: Boolean)
+>>areFriends(u1, u2: User, out b: Boolean)
 >>>when u2 in u1.friends or u1 in u2.friends
 >>>b := True
 >
