@@ -21,8 +21,6 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >
->>karma: Integer
->
 >**actions**
 >
 >**operational principle**
