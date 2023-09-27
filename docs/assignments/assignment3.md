@@ -304,6 +304,9 @@ The internet is full of so much information, but along with that information com
 <summary>UserProfile Sync State Machine</summary>  
 
 >**concept** UserProfile
+>include User  
+>include Friend  
+>include Karma  
 </details>
 
 ### Dependency Diagram
