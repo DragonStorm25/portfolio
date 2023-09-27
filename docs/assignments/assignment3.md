@@ -338,6 +338,12 @@ The internet is full of so much information, but along with that information com
 >
 >>sync areFriends(u1, u2: User, out b: Boolean)
 >>>b := Friend.areFriends(u1, u2)
+>
+>>sync makePost(u: User, c: Content, out p: Post)
+>>>Post.post(u, c, p)
+>
+>>sync deletePost(u: User, p: Post)
+>>>Post.unpost(u, p)
 </details>
 
 ### Dependency Diagram
