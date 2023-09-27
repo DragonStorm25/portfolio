@@ -105,7 +105,7 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>Post State Machine</summary>  
 
->**concept** post \[User, UserPost, Content]
+>**concept** Post \[User, UserPost, Content]
 >
 >**purpose** share content with others
 >
