@@ -111,7 +111,8 @@ The internet is full of so much information, but along with that information com
 >
 >**state**
 >>posts: User -> set Post  
->>content: Post -> Content
+>>content: Post -> one Content  
+>>author: Post -> one User  
 >
 >**actions**
 >>post(u: User, p: Post, c: Content)
