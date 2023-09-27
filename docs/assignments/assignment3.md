@@ -17,18 +17,7 @@ The internet is full of so much information, but along with that information com
 >
 >**purpose**
 >
->>to represent a single person using RealTalk
->
->**state**
->
->**actions**
->
->**operational principle**
-
-#### Session
->**concept** session
->
->**purpose**
+>>authenticate a partipicant of RealTalk
 >
 >**state**
 >
