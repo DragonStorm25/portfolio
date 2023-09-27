@@ -176,7 +176,7 @@ The internet is full of so much information, but along with that information com
 
 ## Design Tradeoffs
 
-1.  
+1. Only Using Likes vs Using Likes and Dislikes  
     a.  
     b.  
     c.  
