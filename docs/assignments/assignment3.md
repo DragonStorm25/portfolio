@@ -288,12 +288,12 @@ The internet is full of so much information, but along with that information com
 >
 >>sync trust(u: User, t: Target)
 >>>Trust.neutralize(t, u)  
->>>Trust.trust(t, u)
+>>>Trust.trust(t, u)  
 >>>Karma.increase(u)
 >
 >>sync mistrust(u: User, t: Target)
 >>>Trust.neutralize(t, u)
->>>Trust.mistrust(t, u)
+>>>Trust.mistrust(t, u)  
 >>>Karma.decrease(u)
 >
 >>sync neutralTrust(u: User, t: Target)
