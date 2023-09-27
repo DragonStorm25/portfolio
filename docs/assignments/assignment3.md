@@ -161,13 +161,9 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>like(t: Target, u: User)  
 >>>t.likes += u  
->>>when u in t.dislikes  
->>>t.dislikes -= u  
 >  
 >>dislike(t: Target, u: User)  
 >>>t.dislikes += u  
->>>when u in t.likes  
->>>t.dislikes -= u  
 >  
 >>neutralize(t: Target, u: User)
 >>>when u in t.likes  
@@ -194,13 +190,9 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>trust(t: Target, u: User)  
 >>>t.trusts += u  
->>>when u in t.mistrusts  
->>>t.mistrusts -= u  
 >  
 >>mistrust(t: Target, u: User)  
 >>>t.mistrusts += u  
->>>when u in t.trusts  
->>>t.trusts -= u  
 >  
 >>neutralize(t: Target, u: User)
 >>>when u in t.trusts  
