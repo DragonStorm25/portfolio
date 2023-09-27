@@ -117,15 +117,17 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>post(u: User, p: Post, c: Content)
 >>>p.content := c  
+>>>p.author := u  
 >>>u.posts += p  
 >  
 >>unpost(u: User, p: Post)
 >>>when p in u.posts
 >>>u.posts -= p  
 >>>forget content of p  
+>>>forget author of p  
 >
 >**operational principle**
->>after post(u, p, c) until unpost(u, p), p in u.posts
+>>after post(u, p, c) until unpost(u, p), p in u.posts, u = p.author, and c = p.content
 </details>
 
 #### Comment
