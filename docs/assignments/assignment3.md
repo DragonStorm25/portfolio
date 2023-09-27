@@ -61,6 +61,10 @@ The internet is full of so much information, but along with that information com
 >>>s in active
 >>>active -= s
 >
+>>getUser(s: Session, out u: User)
+>>>s in active
+>>>u := s.curUser
+>
 >**operational principle**
 </details>
 
