@@ -246,17 +246,24 @@ The internet is full of so much information, but along with that information com
 
 #### UserSession
 <details>
-<summary>UserSession State Machine</summary>  
+<summary>UserSession Sync State Machine</summary>  
 
 >**concept** UserSession
+>>include User  
+>>include Session \[User.User]
 >
->**purpose** 
+>>sync register(username, password: String, out user: User)
+>>>User.register(username, password, user)
 >
->**state**
+>>sync login(username, password: String, out user: User, out s: Session)
+>>>when User.authenticate(username, password, user)  
+>>>Session.start(user, s)
 >
->**actions**
+>>sync authenticate(s: Session, u: User)
+>>>Session.getUser(s, u)
 >
->**operational principle**
+>>sync logout(s: Session)
+>>>Session.end(s)
 </details>
 
 #### UserReact
