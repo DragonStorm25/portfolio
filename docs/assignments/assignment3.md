@@ -271,17 +271,9 @@ The internet is full of so much information, but along with that information com
 >**concept** UserReact
 >>include User  
 >>include Target  
->>include Content  
->>include Comment \[Target.Target, User.User, Content.Content]  
 >>include Like \[Target.Target, User.User]  
 >>include Trust \[Target.Target, User.User]  
 >>include Karma \[User.User]
->
->>sync comment(u: User, t: Target, c: Content)
->>>Comment.comment(t, u, c)
->
->>sync uncomment(u: User, t: Target, c: Content)
->>>Comment.uncomment(t, u, c)
 >
 >>sync like(u: User, t: Target)
 >>>Like.neutralize(t, u)  
@@ -306,6 +298,23 @@ The internet is full of so much information, but along with that information com
 >
 >>sync neutralTrust(u: User, t: Target)
 >>>Trust.neutralize(t, u)
+</details>
+
+#### UserComment
+<details>
+<summary>UserComment Sync State Machine</summary>  
+
+>**concept** UserReact
+>>include User  
+>>include Target  
+>>include Content  
+>>include Comment \[Target.Target, User.User, Content.Content]  
+>
+>>sync comment(u: User, t: Target, c: Content)
+>>>Comment.comment(t, u, c)
+>
+>>sync uncomment(u: User, t: Target, c: Content)
+>>>Comment.uncomment(t, u, c)
 </details>
 
 #### UserProfile
