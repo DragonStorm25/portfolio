@@ -305,8 +305,8 @@ The internet is full of so much information, but along with that information com
 
 >**concept** UserProfile
 >include User  
->include Friend  
->include Karma  
+>include Friend \[User.User]  
+>include Karma \[User.User]  
 </details>
 
 ### Dependency Diagram
