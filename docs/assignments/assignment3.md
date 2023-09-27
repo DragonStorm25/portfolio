@@ -10,7 +10,7 @@ The internet is full of so much information, but along with that information com
 
 ## Functional Design
 
-### Concept List
+### Concepts
 
 #### User
 <details>
