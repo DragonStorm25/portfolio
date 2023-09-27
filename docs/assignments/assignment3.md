@@ -292,11 +292,18 @@ The internet is full of so much information, but along with that information com
 >>>Trust.trust(t, u)
 >
 >>sync mistrust(u: User, t: Target)
->>>Trust.neutralize(t, u)  
+>>>Trust.neutralize(t, u)
 >>>Trust.mistrust(t, u)
 >
 >>sync neutralTrust(u: User, t: Target)
 >>>Trust.neutralize(t, u)
+</details>
+
+#### UserProfile
+<details>
+<summary>UserProfile Sync State Machine</summary>  
+
+>**concept** UserProfile
 </details>
 
 ### Dependency Diagram
