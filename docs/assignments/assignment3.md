@@ -18,8 +18,7 @@ The internet is full of so much information, but along with that information com
 
 >**concept** User
 >
->**purpose**
->>authenticate a partipicant of RealTalk
+>**purpose** authenticate a partipicant of RealTalk
 >
 >**state**
 >>registered: set User  
@@ -45,8 +44,7 @@ The internet is full of so much information, but along with that information com
 
 >**concept** Friend
 >
->**purpose**
->>increase connections between others
+>**purpose** increase connections between others
 >
 >**state**
 >>friends: User -> set User
@@ -72,8 +70,7 @@ The internet is full of so much information, but along with that information com
 
 >**concept** post \[User, Post, Content]
 >
->**purpose**
->>share content with others
+>**purpose** share content with others
 >
 >**state**
 >>posts: User -> set Post  
@@ -99,8 +96,7 @@ The internet is full of so much information, but along with that information com
 
 >**concept** Comment \[Target, User, Content]
 >
->**purpose**
->>react to other content
+>**purpose** react to other content
 >
 >**state**
 >>comments: Target -> set Content
@@ -126,8 +122,7 @@ The internet is full of so much information, but along with that information com
 
 >**concept** Like \[Target, User]
 >
->**purpose**
->>show approval or disapproval of information
+>**purpose** show approval or disapproval of information
 >
 >**state**
 >>likes, dislikes: Target -> set User  
@@ -160,8 +155,7 @@ The internet is full of so much information, but along with that information com
 
 >**concept** Trust \[Target, User]
 >
->**purpose**
->>show agreement or disagreement with the truthfulness of information
+>**purpose** show agreement or disagreement with the truthfulness of information
 >
 >**state**
 >>trusts, mistrusts: Target -> set User  
@@ -194,8 +188,7 @@ The internet is full of so much information, but along with that information com
 
 >**concept** Karma \[User]
 >
->**purpose**
->>show how truthful a user is
+>**purpose** show how truthful a user is
 >
 >**state**
 >>karma: User -> one Integer
