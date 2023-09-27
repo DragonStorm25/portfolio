@@ -25,13 +25,13 @@ The internet is full of so much information, but along with that information com
 >>username, password: registered -> one String
 >
 >**actions**
->>register(n: String, p: String, out u: User)
+>>register(n, p: String, out u: User)
 >>>u not in registered
 >>>registered += u
 >>>u.username := n
 >>>u.passowrd := p
 >
->>authenticate(n: String, p: String, out u: User)
+>>authenticate(n, p: String, out u: User)
 >>>u in registered
 >>>u.username = n and u.password = p
 >
@@ -51,11 +51,11 @@ The internet is full of so much information, but along with that information com
 >>friends: User -> set User
 >
 >**actions**
->>friend(u1: User, u2: User)
+>>friend(u1, u2: User)
 >>>u1.friends += u2
 >>>u2.friends += u1
 >
->>unfriend(u1: User, u2: User)
+>>unfriend(u1, u2: User)
 >>>when u2 in u1.friends
 >>>u1.friends -= u2
 >>>when u1 in u2.friends
