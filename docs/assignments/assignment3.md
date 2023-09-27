@@ -102,34 +102,34 @@ The internet is full of so much information, but along with that information com
 >>after dislike(t, u) until like(t, u) or neutralize(t, u), u in t.dislikes
 
 #### Trust
->**concept** trust \[Post, User]
+>**concept** trust \[Target, User]
 >
 >**purpose**
 >>show agreement or disagreement with the truthfulness of information
 >
 >**state**
->>trusts, mistrusts: Post -> set User  
+>>trusts, mistrusts: Target -> set User  
 >
 >**actions**
->>trust(p: Post, u: User)  
->>>p.trusts += u  
->>>when u is associated with p in mistrusts  
->>>p.mistrusts -= u  
+>>trust(t: Target, u: User)  
+>>>t.trusts += u  
+>>>when u is associated with t in mistrusts  
+>>>t.mistrusts -= u  
 >  
->>mistrust(p: Post, u: User)  
->>>p.mistrusts += u  
->>>when u is associated with p in trusts  
->>>p.mistrusts -= u  
+>>mistrust(t: Target, u: User)  
+>>>t.mistrusts += u  
+>>>when u is associated with t in trusts  
+>>>t.mistrusts -= u  
 >  
->>neutralize(p: Post, u: User)
->>>when u is associated with p in trusts  
->>>p.trusts -= u  
->>>when u is associated with p in mistrusts  
->>>p.mistrusts -= u  
+>>neutralize(t: Target, u: User)
+>>>when u is associated with t in trusts  
+>>>t.trusts -= u  
+>>>when u is associated with t in mistrusts  
+>>>t.mistrusts -= u  
 >
 >**operational principle**
->>after trust(p, u) until mistrust(p, u) or neutralize(p, u), u in p.trusts  
->>after mistrust(p, u) until trust(p, u) or neutralize(p, u), u in p.mistrusts
+>>after trust(t, u) until mistrust(t, u) or neutralize(t, u), u in t.trusts  
+>>after mistrust(t, u) until trust(t, u) or neutralize(t, u), u in t.mistrusts
 
 ### Karma
 >**concept** karma \[User]
