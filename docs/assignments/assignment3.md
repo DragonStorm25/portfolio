@@ -154,6 +154,17 @@ The internet is full of so much information, but along with that information com
 >>karma: User -> one Integer
 >
 >**actions**
+>>increase(u: User)
+>>>when u in karma  
+>>>increase the integer associated to u by 1  
+>>>when u not in karma  
+>>>associate u with 1  
+>
+>>decrease(u: User)
+>>>when u in karma  
+>>>decrease the integer associated to u by 1  
+>>>when u not in karma  
+>>>associate u with -1  
 >
 >**operational principle**
 
