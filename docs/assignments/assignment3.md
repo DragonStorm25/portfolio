@@ -16,7 +16,7 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>User State Machine</summary>  
 
->**concept** user
+>**concept** User
 >
 >**purpose**
 >>authenticate a partipicant of RealTalk
@@ -32,7 +32,7 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>Friend State Machine</summary>  
 
->**concept** friend
+>**concept** Friend
 >
 >**purpose**
 >>increase connections between others
@@ -86,7 +86,7 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>Comment State Machine</summary>  
 
->**concept** comment \[Target, User, Content]
+>**concept** Comment \[Target, User, Content]
 >
 >**purpose**
 >>react to other content
@@ -113,7 +113,7 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>Like State Machine</summary>  
 
->**concept** like \[Target, User]
+>**concept** Like \[Target, User]
 >
 >**purpose**
 >>show approval or disapproval of information
@@ -147,7 +147,7 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>Trust State Machine</summary>  
 
->**concept** trust \[Target, User]
+>**concept** Trust \[Target, User]
 >
 >**purpose**
 >>show agreement or disagreement with the truthfulness of information
@@ -181,7 +181,7 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>Karma State Machine</summary>  
 
->**concept** karma \[User]
+>**concept** Karma \[User]
 >
 >**purpose**
 >>show how truthful a user is
