@@ -138,7 +138,7 @@ The internet is full of so much information, but along with that information com
 >>>t.comments += c  
 >>>store u as author c is from  
 >  
->>uncomment(u: User, c: Content)  
+>>uncomment(t: Target, u: User, c: Content)  
 >>>when the author of c is u  
 >>>t.comments -= c  
 >>>forget author of c  
