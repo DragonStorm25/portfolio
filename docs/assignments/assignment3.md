@@ -123,20 +123,20 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >>trust(p: Post, u: User)  
->>>p.trusts += u
+>>>p.trusts += u  
 >>>when u is associated with p in mistrusts  
->>>p.mistrusts -= u
+>>>p.mistrusts -= u  
 >  
 >>mistrust(p: Post, u: User)  
->>>p.mistrusts += u
+>>>p.mistrusts += u  
 >>>when u is associated with p in trusts  
->>>p.mistrusts -= u
+>>>p.mistrusts -= u  
 >  
 >>neutralize(p: Post, u: User)
 >>>when u is associated with p in trusts  
->>>p.trusts -= u
+>>>p.trusts -= u  
 >>>when u is associated with p in mistrusts  
->>>p.mistrusts -= u
+>>>p.mistrusts -= u  
 >
 >**operational principle**
 >>after trust(p, u) until mistrust(p, u) or neutralize(p, u), u in trusts  
@@ -154,15 +154,15 @@ The internet is full of so much information, but along with that information com
 >**actions**
 >>increase(u: User)
 >>>when u in karma  
->>>u.karma := u.karma + 1 
+>>>u.karma := u.karma + 1  
 >>>when u not in karma  
->>>u.karma := 1
+>>>u.karma := 1  
 >
 >>decrease(u: User)
 >>>when u in karma  
->>>u.karma := u.karma - 1 
+>>>u.karma := u.karma - 1  
 >>>when u not in karma  
->>>u.karma := -1
+>>>u.karma := -1  
 >
 >**operational principle**
 >>after increase(u) until increase(u) or decrease(u), the integer associated to u is 1 more than before  
