@@ -270,9 +270,11 @@ The internet is full of so much information, but along with that information com
 <details>
 <summary>UserReact Sync State Machine</summary>  
 
->**concept** UserSession
+>**concept** UserReact
 >>include User  
->
+>>include Comment  
+>>include Like  
+>>include Trust  
 </details>
 
 ### Dependency Diagram
