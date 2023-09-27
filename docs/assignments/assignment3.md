@@ -47,17 +47,17 @@ The internet is full of so much information, but along with that information com
 >>content: Post -> Content
 >
 >**actions**
->>post(u: User, up: Post, c: Content)
->>>store c as content of up  
->>>associate up with u in posts  
+>>post(u: User, p: Post, c: Content)
+>>>store c as content of p  
+>>>associate p with u in posts  
 >  
->>unpost(u: User, up: Post)
->>>when up belongs to some user's posts  
->>>remove up from that user's posts  
->>>forget content of up  
+>>unpost(u: User, p: Post)
+>>>when p belongs to some user's posts  
+>>>remove p from that user's posts  
+>>>forget content of p  
 >
 >**operational principle**
->>after post(u, up, c) until unpost(u, up), up in posts
+>>after post(u, p, c) until unpost(u, p), p in posts
 
 #### Comment
 >**concept** comment \[Post, User, Content]
