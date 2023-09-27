@@ -177,7 +177,7 @@ The internet is full of so much information, but along with that information com
 >>after mistrust(t, u) until trust(t, u) or neutralize(t, u), u in t.mistrusts
 </details>
 
-### Karma
+#### Karma
 <details>
 <summary>User Concept</summary>  
 
