@@ -115,7 +115,7 @@ The internet is full of so much information, but along with that information com
 >>author: Post -> one User  
 >
 >**actions**
->>post(u: User, p: Post, c: Content)
+>>post(u: User, c: Content, out p: Post)
 >>>p.content := c  
 >>>p.author := u  
 >>>u.posts += p  
