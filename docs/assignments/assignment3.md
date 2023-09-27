@@ -39,6 +39,21 @@ The internet is full of so much information, but along with that information com
 >>after register(n, p, u), u in registered and u.username = n and u.password = p
 </details>
 
+#### Session
+<details>
+<summary>Session State Machine</summary>
+
+>**concept**
+>
+>**purpose**
+>
+>**state**
+>
+>**actions**
+>
+>**operational principle**
+</details>
+
 #### Friend
 <details>
 <summary>Friend State Machine</summary>  
