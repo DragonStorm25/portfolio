@@ -176,8 +176,15 @@ The internet is full of so much information, but along with that information com
 
 ## Design Tradeoffs
 
-1. 
-
-2. 
-
-3. 
+1.  
+    a.  
+    b.  
+    c.  
+2.  
+    a.  
+    b.  
+    c.  
+3.  
+    a.  
+    b.  
+    c.  
