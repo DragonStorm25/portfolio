@@ -93,20 +93,20 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >>like(p: Post, u: User)  
->>>associate u with p in likes  
+>>>p.likes += u  
 >>>when u is associated with p in dislikes  
->>>remove the association of u to p in dislikes  
+>>>p.dislikes -= u  
 >  
 >>dislike(p: Post, u: User)  
->>>associate u with p in dislikes  
+>>>p.dislikes += u  
 >>>when u is associated with p in likes  
->>>remove the association of u to p in likes  
+>>>p.dislikes -= u  
 >  
 >>neutralize(p: Post, u: User)
 >>>when u is associated with p in likes  
->>>remove the association of u with p in likes  
+>>>p.likes -= u  
 >>>when u is associated with p in dislikes  
->>>remove the association of u with p in dislikes  
+>>>p.dislikes -= u  
 >
 >**operational principle**
 >>after like(p, u) until dislike(p, u) or neutralize(p, u), u in likes  
