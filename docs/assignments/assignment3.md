@@ -52,6 +52,14 @@ The internet is full of so much information, but along with that information com
 >>curUser: active -> one User
 >
 >**actions**
+>>start(u: User, out s: Session)
+>>>s not in active
+>>>active += s
+>>>s.curUser = u
+>
+>>end(s: Session)
+>>>s in active
+>>>active -= s
 >
 >**operational principle**
 </details>
