@@ -148,6 +148,7 @@ The internet is full of so much information, but along with that information com
 >**concept** karma \[User]
 >
 >**purpose**
+>>show how truthful a user is
 >
 >**state**
 >
