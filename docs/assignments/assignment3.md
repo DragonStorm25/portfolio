@@ -49,27 +49,27 @@ The internet is full of so much information, but along with that information com
 >>after post(u, p, c) until unpost(u, p), p in u.posts
 
 #### Comment
->**concept** comment \[Post, User, Content]
+>**concept** comment \[Target, User, Content]
 >
 >**purpose**
 >>react to other content
 >
 >**state**
->>comments: Post -> set Content
+>>comments: Target -> set Content
 >>author: Content -> one User
 >
 >**actions**
->>comment(p: Post, u: User, c: Content)  
->>>p.comments += c
+>>comment(t: Target, u: User, c: Content)  
+>>>t.comments += c
 >>>store u as author c is from  
 >  
 >>uncomment(u: User, c: Content)  
 >>>when the author of c is u  
->>>p.comments -= c
+>>>t.comments -= c
 >>>forget author of c  
 >
 >**operational principle**
->>after comment(p, u, c) until uncomment(u, c), c in p.comments and u is author of c
+>>after comment(t, u, c) until uncomment(u, c), c in t.comments and u is author of c
 
 #### Like
 >**concept** like \[Post, User]
