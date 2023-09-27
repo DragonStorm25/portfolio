@@ -151,6 +151,7 @@ The internet is full of so much information, but along with that information com
 >>show how truthful a user is
 >
 >**state**
+>>karma: User -> one Integer
 >
 >**actions**
 >
