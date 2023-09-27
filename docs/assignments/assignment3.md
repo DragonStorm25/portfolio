@@ -92,10 +92,10 @@ The internet is full of so much information, but along with that information com
 >>>u2.friends -= u1  
 >
 >>areFriends(u1, u2: User, out b: Boolean)
->>>when u2 in u1.friends or u1 in u2.friends
->>>b := True
->>>otherwise
->>>b := False
+>>>when u2 in u1.friends or u1 in u2.friends  
+>>>b := True  
+>>>otherwise  
+>>>b := False  
 >
 >**operational principle**
 >>after friend(u1, u2) until unfriend(u1, u2), u2 in u1.friends and u1 in u2.friends 
