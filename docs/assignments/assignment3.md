@@ -34,6 +34,12 @@ The internet is full of so much information, but along with that information com
 >>friends: User -> set User
 >
 >**actions**
+>>friend(u1: User, u2: User)
+>>>u1.friends += u2
+>
+>>unfriend(u1: User, u2: User)
+>>>when u2 in u1.friends
+>>>u1.friends -= u2
 >
 >**operational principle**
 
