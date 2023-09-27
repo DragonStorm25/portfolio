@@ -123,20 +123,20 @@ The internet is full of so much information, but along with that information com
 >
 >**actions**
 >>trust(p: Post, u: User)  
->>>associate u with p in trusts  
+>>>p.trusts += u
 >>>when u is associated with p in mistrusts  
->>>remove the association of u to p in mistrusts  
+>>>p.mistrusts -= u
 >  
 >>mistrust(p: Post, u: User)  
->>>associate u with p in mistrusts  
+>>>p.mistrusts += u
 >>>when u is associated with p in trusts  
->>>remove the association of u to p in trusts  
+>>>p.mistrusts -= u
 >  
 >>neutralize(p: Post, u: User)
 >>>when u is associated with p in trusts  
->>>remove the association of u with p in trusts  
+>>>p.trusts -= u
 >>>when u is associated with p in mistrusts  
->>>remove the association of u with p in mistrusts  
+>>>p.mistrusts -= u
 >
 >**operational principle**
 >>after trust(p, u) until mistrust(p, u) or neutralize(p, u), u in trusts  
