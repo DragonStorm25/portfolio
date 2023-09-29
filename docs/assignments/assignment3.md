@@ -289,22 +289,22 @@ The internet is full of so much information, but along with that information com
 >>sync neutralLike(u: User, t: Target)
 >>>Like.neutralize(t, u)
 >
->>sync trust(u: User, t: Target)
->>>Trust.neutralize(t, u)  
->>>Trust.trust(t, u)  
->>>Karma.increase(u)
+>>sync trust(u1, u2: User, t: Target)
+>>>Trust.neutralize(t, u1)  
+>>>Trust.trust(t, u1)  
+>>>Karma.increase(u2)
 >
->>sync mistrust(u: User, t: Target)
->>>Trust.neutralize(t, u)  
->>>Trust.mistrust(t, u)  
->>>Karma.decrease(u)
+>>sync mistrust(u1, u2: User, t: Target)
+>>>Trust.neutralize(t, u1)  
+>>>Trust.mistrust(t, u1)  
+>>>Karma.decrease(u2)
 >
->>sync neutralTrust(u: User, t: Target)
->>>Trust.neutralize(t, u)  
->>>when u is removed from Trust.trusts  
->>>Karma.decrease(u)  
->>>when u is removed from Trust.mistrusts  
->>>Karma.increase(u)
+>>sync neutralTrust(u1, u2: User, t: Target)
+>>>Trust.neutralize(t, u1)  
+>>>when u1 is removed from Trust.trusts  
+>>>Karma.decrease(u2)  
+>>>when u1 is removed from Trust.mistrusts  
+>>>Karma.increase(u2)
 </details>
 
 #### UserComment
