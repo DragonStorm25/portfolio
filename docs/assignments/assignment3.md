@@ -300,7 +300,11 @@ The internet is full of so much information, but along with that information com
 >>>Karma.decrease(u)
 >
 >>sync neutralTrust(u: User, t: Target)
->>>Trust.neutralize(t, u)
+>>>Trust.neutralize(t, u)  
+>>>when u is removed from Trust.trusts  
+>>>Karma.decrease(u)  
+>>>when u is removed from Trust.mistrusts  
+>>>Karma.increase(u)
 </details>
 
 #### UserComment
