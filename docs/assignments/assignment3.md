@@ -36,7 +36,8 @@ The internet is full of so much information, but along with that information com
 >>>u.username = n and u.password = p  
 >
 >**operational principle**
->>after register(n, p, u), u in registered and u.username = n and u.password = p
+>>after a user registers with a username and password, they can authenticate with that same username and password  
+>>after register(n, p, u), u in registered, u.username = n, u.password = p; authenticate(n, p, u') results in u = u'
 </details>
 
 #### Session
