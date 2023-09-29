@@ -100,7 +100,8 @@ The internet is full of so much information, but along with that information com
 >>>b := False  
 >
 >**operational principle**
->>after friend(u1, u2) until unfriend(u1, u2), u2 in u1.friends and u1 in u2.friends 
+>>after a user friends another user, they are both considered each others friends until one of them unfriends the other  
+>>after friend(u1, u2) until unfriend(u1, u2), u2 in u1.friends, u1 in u2.friends, and areFriend(u1, u2, b) results in b = True
 </details>
 
 #### Post
