@@ -139,8 +139,8 @@ The internet is full of so much information, but along with that information com
 >**purpose** react to other content
 >
 >**state**
->>comments: Target -> set Content
->>author: Content -> one User
+>>comments: Target -> set Content  
+>>author: Content -> one User  
 >
 >**actions**
 >>comment(t: Target, u: User, c: Content)  
