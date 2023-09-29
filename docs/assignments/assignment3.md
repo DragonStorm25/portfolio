@@ -242,8 +242,8 @@ The internet is full of so much information, but along with that information com
 >>>u.karma := -1  
 >
 >**operational principle**
->>after increase(u) until increase(u) or decrease(u), u.karma is 1 more than before  
->>after decrease(u) until increase(u) or decrease(u), u.karma is 1 less than before
+>>after increase(u) until decrease(u), u.karma is 1 more than before  
+>>after decrease(u) until increase(u), u.karma is 1 less than before
 </details>
 
 ### Synchronizations
