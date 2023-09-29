@@ -67,6 +67,7 @@ The internet is full of so much information, but along with that information com
 >>>u := s.curUser
 >
 >**operational principle**
+>>after a session starts until it ends, getUser returns the same user that started the session  
 >>after start(u, s) until end(s, u), getUser(s, u') results in u = u'
 </details>
 
