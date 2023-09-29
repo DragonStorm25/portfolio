@@ -354,6 +354,8 @@ Solid outline shapes are specific concepts. Dashed outline shapes are generic co
 
 ## Wireframe
 
+![RealTalk homepage](../images/real-talk-homepage.png)
+
 ## Design Tradeoffs
 
 1.  
