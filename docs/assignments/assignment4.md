@@ -7,9 +7,7 @@ layout: doc
 
 ## Abstract Data Models  
 
-### Concepts
-
-#### User
+### User
 <details>
 <summary>User State Machine</summary>  
 
@@ -37,7 +35,7 @@ layout: doc
 >>after register(n, p, u), u in registered, u.username = n, u.password = p; authenticate(n, p, u') results in u = u'
 </details>
 
-#### Session
+### Session
 <details>
 <summary>Session State Machine</summary>
 
@@ -68,7 +66,7 @@ layout: doc
 >>after start(u, s) until end(s, u), getUser(s, u') results in u = u'
 </details>
 
-#### Friend
+### Friend
 <details>
 <summary>Friend State Machine</summary>  
 
@@ -101,7 +99,7 @@ layout: doc
 >>after friend(u1, u2) until unfriend(u1, u2), u2 in u1.friends, u1 in u2.friends, and areFriend(u1, u2, b) results in b = True
 </details>
 
-#### Post
+### Post
 <details>
 <summary>Post State Machine</summary>  
 
@@ -130,7 +128,7 @@ layout: doc
 >>after post(u, p, c) until unpost(u, p), p in u.posts, u = p.author, and c = p.content
 </details>
 
-#### Comment
+### Comment
 <details>
 <summary>Comment State Machine</summary>  
 
@@ -156,7 +154,7 @@ layout: doc
 >>after comment(t, u, c) until uncomment(u, c), c in t.comments and u is author of c
 </details>
 
-#### Like
+### Like
 <details>
 <summary>Like State Machine</summary>  
 
@@ -185,7 +183,7 @@ layout: doc
 >>after dislike(t, u) until like(t, u) or neutralize(t, u), u in t.dislikes
 </details>
 
-#### Trust
+### Trust
 <details>
 <summary>Trust State Machine</summary>  
 
@@ -214,7 +212,7 @@ layout: doc
 >>after mistrust(t, u) until trust(t, u) or neutralize(t, u), u in t.mistrusts
 </details>
 
-#### Karma
+### Karma
 <details>
 <summary>Karma State Machine</summary>  
 
