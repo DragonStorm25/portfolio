@@ -248,4 +248,4 @@ All of these were taken from [here](/assignments/assignment3)
 
 [Backend Code](https://github.com/DragonStorm25/backend-starter)
 
-[Deployed Service]
+[Deployed Service](https://realtalk-backend.vercel.app/)
