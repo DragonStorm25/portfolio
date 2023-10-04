@@ -244,6 +244,8 @@ All of these were taken from [here](/assignments/assignment3#functional-design)
 
 ## App State Diagram  
 
+## Design Reflection
+
 ## Links
 
 [Backend Code](https://github.com/DragonStorm25/backend-starter)
