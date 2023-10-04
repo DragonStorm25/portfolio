@@ -244,6 +244,8 @@ All of these were taken from [here](/assignments/assignment3#functional-design)
 
 ## App State Diagram  
 
+![App State Diagram](../images/AppDiagram.png)
+
 ## Design Reflection
 
 When designing comments, likes, and trusts, I did not consider that I would have to ensure their target existed before trying to apply the comment, like, or trust to the target. When actually implementing comments and likes, I realized I had to check to make sure a comment wasn't applied to a comment, or a like wasn't applied to a user. I did this by checking the ObjectId of the target and ensuring it existed as a post. I could have allowed commenting, liking, or trusting any target, but this could result in liking likes which is extremely strange for a social media. 
