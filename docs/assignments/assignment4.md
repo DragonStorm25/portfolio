@@ -250,6 +250,8 @@ All of these were taken from [here](/assignments/assignment3#functional-design)
 
 When designing comments, likes, and trusts, I did not consider that I would have to ensure their target existed before trying to apply the comment, like, or trust to the target. When actually implementing comments and likes, I realized I had to check to make sure a comment wasn't applied to a comment, or a like wasn't applied to a user. I did this by checking the ObjectId of the target and ensuring it existed as a post. I could have allowed commenting, liking, or trusting any target, but this could result in liking likes which is extremely strange for a social media. 
 
+When implementing the karma system dependent on trusts and mistrusts, I ran into two bugs that allowed infinite karma farming. The first bug was simply trusting over and over again. Even though an error was returned, the backend code didn't check for an error before increasing karma. This was easily fixed by checking for an error before touching karma. The second bug was more complicated. User A could trust, mistrust, and then neutral trust User B's post or comment, causing a net karma of +1. This was caused by the backend code not checking the previous trust state of a target. For example, a trust would always give +1 karma, even if the post was previously mistrusted by the same person. In that case, it should give +2 to offset the -1 from a mistrust, and vice versa for trust to mistrust.  
+
 ## Links
 
 [Backend Code](https://github.com/DragonStorm25/backend-starter)
