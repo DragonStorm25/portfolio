@@ -29,12 +29,16 @@ layout: doc
 #### Gestalt principles
 
 * Likes and dislikes are right next to each other, as they conceptually fill the same role but in opposite directions
+    * This association allows users to see them as clearly connected
 
 * Trusts and mistrusts are right next to each other, as they conceptually fill the same role but in opposite directions
+    * This association allows users to see them as clearly connected
 
-* Likes/dislikes and trusts/mistrusts are not near each other, as they conceptually fill completely different roles and it would be incorrect to trust every post/comment you like and mistrust every post/comment you dislike
+* Likes/dislikes and trusts/mistrusts are not near each other, as they conceptually fill completely different roles
+    * This reduces the likelihood that users trust every post/comment they like and mistrust every post/comment they dislike, as this is against the philosophy of RealTalk
 
-* Users usernames and profile pictures are right next to each other as the association should be strong
+* Users usernames and profile pictures are right next to each other
+    * This makes users associate to two with each other, building a mental view of various online personas
 
 * User stats are near the corresponding username/profile picture
 
