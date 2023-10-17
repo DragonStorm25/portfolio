@@ -7,4 +7,10 @@ layout: doc
 
 ## Heuristic Evaluation
 
+### Usability
+
+### Physical
+
+### Linguistic
+
 ## Links
