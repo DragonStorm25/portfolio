@@ -17,6 +17,18 @@ layout: doc
 
 ### Physical
 
+#### Gestalt principles
+
+* Likes and dislikes are right next to each other, as they conceptually fill the same role but in opposite directions
+
+* Trusts and mistrusts are right next to each other, as they conceptually fill the same role but in opposite directions
+
+* Likes/dislikes and trusts/mistrusts are not near each other, as they conceptually fill completely different roles and it would be incorrect to trust every post/comment you like and mistrust every post/comment you dislike
+
+* Users usernames and profile pictures are right next to each other as the association should be strong
+
+* User stats are near the corresponding username/profile picture
+
 ### Linguistic
 
 ## Links
