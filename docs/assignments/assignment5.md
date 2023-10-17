@@ -18,6 +18,14 @@ layout: doc
 
 ### Physical
 
+#### Fitt's Law
+
+* Search bar is very wide and at the top, resulting in a large Fitt's Law score
+    * This hightlights the high likelihood of users searching and allows them to select the search bar more easily
+
+* Post creationg area is large and at the side, resulting in a large Fitt's Law score
+    * This hightlights the high likelihood of users making a post while use RealTalk
+
 #### Gestalt principles
 
 * Likes and dislikes are right next to each other, as they conceptually fill the same role but in opposite directions
