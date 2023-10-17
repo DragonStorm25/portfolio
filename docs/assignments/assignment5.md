@@ -13,7 +13,8 @@ layout: doc
 
 * Likes, dislikes, trusts, and mistrusts can quickly be retracted by clicking a second time on the corresponding button
 
-* Posts and comments can be removed by clicking the "Delete" button next to said item
+* Posts and comments will be able to be removed by clicking the "Delete" button next to said item
+    * This was not added initially, but follows the heuristic so will be added
 
 ### Physical
 
