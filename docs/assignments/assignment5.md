@@ -65,3 +65,5 @@ layout: doc
     * Users will be able to familiarize themselves with a symbol and never be confused when they click it
 
 ## Links
+
+[Frontend Code](https://github.com/DragonStorm25/realtalk-frontend)
