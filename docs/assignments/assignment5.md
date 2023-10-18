@@ -67,3 +67,5 @@ layout: doc
 ## Links
 
 [Frontend Code](https://github.com/DragonStorm25/realtalk-frontend)
+
+[Deployed Service](https://realtalk-frontend.vercel.app/)
