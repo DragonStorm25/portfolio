@@ -44,4 +44,17 @@ layout: doc
 
 ### Linguistic
 
+#### Speak a user's language
+
+* In the posting interface, there is a clear area to add text labeled "Post something..." and a clear option to add images, videos, or gifs labeled "Add Media"
+    * Some clarification could be made on "Add Media," as some users may not understand that media includes images and videos. Perhaps the text could cycle between multiple types of media, cycling from "Add Image" to "Add Video" to "Add GIF"
+
+* Currently, likes, dislikes, trusts, mistrusts, comments, and DMs all have text that say what each button does
+    * Changing these to common symbols would ensure the user still knows what each button does and simplify the UI
+
+#### Consistency 
+
+* In every single location that likes, dislikes, trusts, mistrusts, comments, and DMs are used, the symbol/text used to represent them will be the same
+    * Users will be able to familiarize themselves with a symbol and never be confused when they click it
+
 ## Links
