@@ -9,6 +9,13 @@ layout: doc
 
 ### Usability
 
+#### Safety
+
+* When deleting posts or comments, a pop-up will occur that will make the user confirm the deletion
+    * It will also let them know this deletion is permanent
+
+* When sending a DM to a user that isn't the user's friend, a warning will be shown before the DM is sent to ensure they meant to send a message to someone that isn't their friend
+
 #### Error Tolerance
 
 * Likes, dislikes, trusts, and mistrusts can quickly be retracted by clicking a second time on the corresponding button
