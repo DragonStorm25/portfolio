@@ -64,6 +64,12 @@ layout: doc
 * In every single location that likes, dislikes, trusts, mistrusts, comments, and DMs are used, the symbol/text used to represent them will be the same
     * Users will be able to familiarize themselves with a symbol and never be confused when they click it
 
+## Visual Design Study
+
+![Visual Design Study Page 1](/docs/images/A5%20Visual%20Design%20Study%20Page1.png)
+
+![Visual Design Study Page 2](/docs/images/A5%20Visual%20Design%20Study%20Page2.png)
+
 ## Links
 
 [Frontend Code](https://github.com/DragonStorm25/realtalk-frontend)
