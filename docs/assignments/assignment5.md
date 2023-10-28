@@ -66,9 +66,9 @@ layout: doc
 
 ## Visual Design Study
 
-![Visual Design Study Page 1](/docs/images/A5%20Visual%20Design%20Study%20Page1.png)
+![Visual Design Study Page 1](/docs/images/A5VisualDesignStudyPage1.png)
 
-![Visual Design Study Page 2](/docs/images/A5%20Visual%20Design%20Study%20Page2.png)
+![Visual Design Study Page 2](/docs/images/A5VisualDesignStudyPage2.png)
 
 ## Links
 
