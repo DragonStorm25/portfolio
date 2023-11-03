@@ -44,6 +44,6 @@ In the third task, the volunteer understood the instructions perfectly and click
 
 In the fourth task, the volunteer easily sent a friend request and then proceeded to cancel the request, swapping back and forth a few times to test it out. They did not like the layout of the friend system very much, but understood the information it conveyed easily.
 
-In the fifth task,
+In the fifth task, struggled slightly to find the edit button as there were many posts in the list. However, when they scrolled down far enough to see it, they quickly clicked on it and successfully edited their post. 
 
 ## Potential Improvements
