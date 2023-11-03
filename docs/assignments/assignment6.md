@@ -9,7 +9,7 @@ layout: doc
 
 | Task | Instruction | Rationale |
 | --- | --- | --- | 
-| Make a post | 
+| Make a post | Login, write text in the "Post Contents" box, and click "Create Post" | Testing posting and updating the post list |
 | --- | --- | --- | 
 | Comment on a post, like/dislike a post, and trust/mistrust and post | 
 | --- | --- | --- | 
