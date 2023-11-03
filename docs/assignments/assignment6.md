@@ -45,5 +45,6 @@ In the fifth task, struggled slightly to find the edit button as there were many
 
 * Registration
     * Both volunteers had at least a little trouble finding where to register for RealTalk
+    * This problem was linguistic, as users did not know where information was located as there was almost no information scent 
     * This could be resolved simply by adding a link under the "Not logged in!" text on the right side of the screen, or a link elsewhere
     * This could resolved in a more complex way by adding a new tab that only shows up when a user isn't logged in. This tab would be called "Register" and lead to a page with only the account registration frontend, instead of combining the login and registration into one page
