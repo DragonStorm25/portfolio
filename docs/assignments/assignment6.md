@@ -32,7 +32,7 @@ In the third task, the volunteer took a bit to find the correct selectable usern
 
 In the fourth task, the volunteer was able to send a friend request very easily as they had the previous experience of visiting a user's profile. They also expressed their interest in the layout of the friend system, mentioning it would be inconvenient if someone had a lot of friends or requests.
 
-In the fifth task, the volunteer was able to easily find the edit button on their post and comment due to its significant color difference. 
+In the fifth task, the volunteer was able to easily find the edit button on their post and comment due to its significant color difference. The volunteer also said that the edit button was the only white button, and the delete button nearby was the only red button.
 
 ### Second Study Report
 
