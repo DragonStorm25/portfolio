@@ -7,6 +7,20 @@ layout: doc
 
 ## Task List
 
+| Task | Instruction | Rationale |
+| --- | --- | --- | 
+| 
+| --- | --- | --- | 
+|
+| --- | --- | --- | 
+|
+| --- | --- | --- | 
+|
+| --- | --- | --- | 
+|
+| --- | --- | --- | 
+
+
 ## Study Reports
 
 ## Potential Improvements
