@@ -36,4 +36,14 @@ In the fifth task, the volunteer was able to easily find the edit button on thei
 
 ### Second Study Report
 
+In the first task,
+
+In the second task,
+
+In the third task,
+
+In the fourth task,
+
+In the fifth task,
+
 ## Potential Improvements
