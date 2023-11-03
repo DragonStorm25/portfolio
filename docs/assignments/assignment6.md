@@ -49,6 +49,10 @@ In the fifth task, struggled slightly to find the edit button as there were many
     * This could be resolved simply by adding a link under the "Not logged in!" text on the right side of the screen, or a link elsewhere
     * This could resolved in a more complex way by adding a new tab that only shows up when a user isn't logged in. This tab would be called "Register" and lead to a page with only the account registration frontend, instead of combining the login and registration into one page
 
-* 
+* Emoji Usage
+    * Both volunteers had a decent amount of trouble piecing together the information provided by the handshake and Pinocchio nose emojis
+    * This problem was both linguistic and physical; linguistic because the symbols meaning was not clear to the user, and physical because the location of the trust/mistrust buttons is similar to the location of likes/dislikes in other social media. This means they could be easily confused, when they clearly have different meanings and purposes.
+    * This could be resolved by using more standard symbols for trusting and mistrusting something or someone, or if that also suffers the same issue, replacing the symbols entirely for text
+    * This was slightly anticipated, and all reaction buttons have a tooltip that says "Like"/"Dislike"/"Trust"/"Mistrust" depending on the usage of the button
 
 * 
