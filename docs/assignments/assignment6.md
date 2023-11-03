@@ -42,7 +42,7 @@ In the second task, the volunteer understood that the thumbs up and thumbs down 
 
 In the third task, the volunteer understood the instructions perfectly and clicked on a username in a post. They did not understand what the realness statistic under the user's username was, but they did understand that it's possible to both send and cancel a friend request to the user. 
 
-In the fourth task,
+In the fourth task, the volunteer easily sent a friend request and then proceeded to cancel the request, swapping back and forth a few times to test it out. They did not like the layout of the friend system very much, but understood the information it conveyed easily.
 
 In the fifth task,
 
