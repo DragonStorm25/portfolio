@@ -38,7 +38,7 @@ In the fifth task, the volunteer was able to easily find the edit button on thei
 
 In the first task, the volunteer was not able to figure out where to create an account. I had to point them to press the "Login" button in the top right corner. After this, they had no issues registering but expressed confusion at the registration being located in the same place as the login. The volunteer had some visible trouble making a post, but this was due to not knowing what to type as their first post. After giving them an example post, they continued and were able to complete the task.
 
-In the second task,
+In the second task, the volunteer understood that the thumbs up and thumbs down emojis represented likes and dislikes, like many other social medias. However, they were confused and did not understand that the shaking hands emoji meant trust and the Pinocchio nose emoji meant mistrust. After I explained this to them, they understood and commented that while these might be the best emojis to represent these concepts, maybe emojis aren't a good idea for the buttons in general. 
 
 In the third task,
 
