@@ -17,7 +17,7 @@ layout: doc
 | --- | --- | --- | 
 | Send a friend request | View a user's profile and click the "Send Friend Request" button. Return to the Home page and ensure there is an outgoing friend request listed on the right under "Outgoing Friend Requests". | Test sending friend requests and seeing outgoing friend requests. |
 | --- | --- | --- | 
-| Edit a post and comment | 
+| Edit a post and comment | Find the previously made post in Task 1 and click the "Edit" button. Change the text to something different, and press "Save". Ensure the post text has changed to the new input text. Find the previously made comment in Task 2 and click the "Edit" button. Change the text to something different, and press "Save". Ensure the comment text has changed to the new input text. | Testing post and comment editing and updating posts and comments when they're edited.
 | --- | --- | --- | 
 
 
