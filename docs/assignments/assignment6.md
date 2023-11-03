@@ -55,4 +55,7 @@ In the fifth task, struggled slightly to find the edit button as there were many
     * This could be resolved by using more standard symbols for trusting and mistrusting something or someone, or if that also suffers the same issue, replacing the symbols entirely for text
     * This was slightly anticipated, and all reaction buttons have a tooltip that says "Like"/"Dislike"/"Trust"/"Mistrust" depending on the usage of the button
 
-* 
+* Long Lists
+    * One volunteer commented on the potential issues with long friend lists, while the other volunteer directly experienced the issue with long post lists; sometimes, it can be hard to find information in a long list
+    * This problem is physical, as there are no accelerators for users who want to find a specific piece of information in any long list
+    * This could be resolved simply by adding a search feature for friends/requests, and a better search feature for posts. The friend search feature would only search by username. The better post search feature would allow the user to search by author, post content, and post date.
