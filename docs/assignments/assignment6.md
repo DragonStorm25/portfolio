@@ -11,7 +11,7 @@ layout: doc
 | --- | --- | --- | 
 | Make a post | Login, write text in the "Post Contents" box, and click "Create Post" | Testing posting and updating the post list |
 | --- | --- | --- | 
-| Comment on a post, like/dislike a post, and trust/mistrust and post | Press "Comment" underneath a post, type text in the box labeled "Comment something...", and click "Create Comment". Select either the like or dislike button on any post. Select either the trust or mistrust button on any post. | Testing commenting and both kinds of reactions.
+| Comment on a post, like/dislike a post, and trust/mistrust and post | Press "Comment" underneath a post, type text in the box labeled "Comment something...", and click "Create Comment". Select either the like or dislike button on any post. Select either the trust or mistrust button on any post. | Testing commenting and both kinds of reactions. |
 | --- | --- | --- | 
 | View a user's profile | Click on any underlined username, either in a post or in a comment. Ensure you can see "N realness", where N is a signed number. Ensure you can see "Send Friend Request" if the user you selected is not your friend. | Test indirect interactions with other users, including seeing their realness score and viewing the friend information. |
 | --- | --- | --- | 
