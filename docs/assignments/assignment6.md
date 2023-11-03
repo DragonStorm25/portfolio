@@ -9,15 +9,15 @@ layout: doc
 
 | Task | Instruction | Rationale |
 | --- | --- | --- | 
-| 
+| Make a post | 
 | --- | --- | --- | 
-|
+| Comment on a post, like/dislike a post, and trust/mistrust and post | 
 | --- | --- | --- | 
-|
+| View a user's profile | 
 | --- | --- | --- | 
-|
+| Send a friend request | 
 | --- | --- | --- | 
-|
+| Edit a post and comment | 
 | --- | --- | --- | 
 
 
