@@ -28,7 +28,7 @@ In the first task, the volunteer seemed to struggle with finding where to create
 
 In the second task, the volunteer had no issue understanding the like and dislike system, but did express confusion on the numbers being separate as other social media they use, like Reddit, combines it into a single number. They did have some issue understanding which emojis meant trust or mistrust, as they are unfamililar symbols. After looking for a bit, they understood that the shaking hands emoji meant trust and the Pinocchio nose emoji meant mistrust. 
 
-In the third task, the volunteer was able to click a user's username fairly easily, and understood which usernames could be clicked due to the text changing to dark purple on hover. 
+In the third task, the volunteer took a bit to find the correct selectable usernames, but was able to click a user's username fairly easily. They also understood which usernames could be clicked due to the text changing to dark purple on hover after seeing one of these names change color. 
 
 In the fourth task, the volunteer was able to send a friend request very easily as they had the previous experience of visiting a user's profile. They also expressed their 
 
