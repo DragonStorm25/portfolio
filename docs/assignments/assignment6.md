@@ -36,7 +36,7 @@ In the fifth task, the volunteer was able to easily find the edit button on thei
 
 ### Second Study Report
 
-In the first task,
+In the first task, the volunteer was not able to figure out where to create an account. I had to point them to press the "Login" button in the top right corner. After this, they had no issues registering but expressed confusion at the registration being located in the same place as the login. The volunteer had some visible trouble making a post, but this was due to not knowing what to type as their first post. After giving them an example post, they continued and were able to complete the task.
 
 In the second task,
 
