@@ -30,7 +30,7 @@ In the second task, the volunteer had no issue understanding the like and dislik
 
 In the third task, the volunteer took a bit to find the correct selectable usernames, but was able to click a user's username fairly easily. They also understood which usernames could be clicked due to the text changing to dark purple on hover after seeing one of these names change color. 
 
-In the fourth task, the volunteer was able to send a friend request very easily as they had the previous experience of visiting a user's profile. They also expressed their 
+In the fourth task, the volunteer was able to send a friend request very easily as they had the previous experience of visiting a user's profile. They also expressed their interest in the layout of the friend system, mentioning it would be inconvenient if someone had a lot of friends or requests.
 
 In the fifth task, the volunteer was able to easily find the edit button on their post and comment due to its significant color difference. 
 
