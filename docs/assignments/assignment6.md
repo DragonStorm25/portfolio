@@ -24,6 +24,15 @@ layout: doc
 ## Study Reports
 
 ### First Study Report
+In the first task, the volunteer seemed to struggle with finding where to create an account. It took longer than expected for them to find the "Login" button in the top right and understand that registering was also under that section. The account creation worked, and the user had no visible trouble making a post after registering. The post also appeared at the top of the post list as expected. 
+
+In the second task, the volunteer had no issue understanding the like and dislike system, but did express confusion on the numbers being separate as other social media they use, like Reddit, combines it into a single number. They did have some issue understanding which emojis meant trust or mistrust, as they are unfamililar symbols. After looking for a bit, they understood that the shaking hands emoji meant trust and the Pinocchio nose emoji meant mistrust. 
+
+In the third task, the volunteer was able to click a user's username fairly easily, and understood which usernames could be clicked due to the text changing to dark purple on hover. 
+
+In the fourth task, the volunteer was able to send a friend request very easily as they had the previous experience of visiting a user's profile. They also expressed their 
+
+In the fifth task, the volunteer was able to easily find the edit button on their post and comment due to its significant color difference. 
 
 ### Second Study Report
 
