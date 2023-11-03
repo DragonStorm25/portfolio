@@ -40,7 +40,7 @@ In the first task, the volunteer was not able to figure out where to create an a
 
 In the second task, the volunteer understood that the thumbs up and thumbs down emojis represented likes and dislikes, like many other social medias. However, they were confused and did not understand that the shaking hands emoji meant trust and the Pinocchio nose emoji meant mistrust. After I explained this to them, they understood and commented that while these might be the best emojis to represent these concepts, maybe emojis aren't a good idea for the buttons in general. 
 
-In the third task,
+In the third task, the volunteer understood the instructions perfectly and clicked on a username in a post. They did not understand what the realness statistic under the user's username was, but they did understand that it's possible to both send and cancel a friend request to the user. 
 
 In the fourth task,
 
