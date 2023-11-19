@@ -107,32 +107,11 @@ List of Interview Roles and Potential Interviewees [​](#list-of-interview-role
 
 ### Potential Interviewees [​](#potential-interviewees)
 
-User-Type
-
-Purpose
-
-Potential Interviewees
-
-Savvy-Investors
-
-This demographic of users includes those who follow the news/markets and make very deliberate/well-informed decisions when it comes to investing. These are the users who have their own ways of gaining information, and do their own research before making an investment. It is generally time-consuming, and they are eager/willing to allocate this time toward this research.
-
-*   Kartik Donepodi (Founder and CTO of Quill AI, an AI-powered financial research assistant)
-*   Jason Weaver (Investment Manager at a family-owned investment group)
-
-Semi-Active Investors
-
-This demographic includes users who invest and have an interest in finance/stocks, but do not actively trade on a daily/weekly basis. They follow the news and might trade in a "reactionary" manner, but don't allow stock market trading to consume too much of their time.
-
-*   Richard Guang (MIT student and a member of the Sloan Business Club (SBC))
-*   Sharil Maredia (MIT student who is politically active and stays current with the news)
-
-General Investors
-
-This demographic includes users who _do_ invest, but don't really follow the news or keep up with the market trends. They generally invest in broader ETFs with minimal holdings in individual stocks.
-
-*   Sima Asa (mother with a full-time job)
-*   Josiah McMenamy (MIT student studying computer science)
+| User-Type | Purpose | Potential Interviewees |
+| --- | --- | --- |
+| Savvy-Investors | This demographic of users includes those who follow the news/markets and make very deliberate/well-informed decisions when it comes to investing. These are the users who have their own ways of gaining information, and do their own research before making an investment. It is generally time-consuming, and they are eager/willing to allocate this time toward this research. | <ul><li>Kartik Donepodi (Founder and CTO of Quill AI, an AI-powered financial research assistant)</li><li>Jason Weaver (Investment Manager at a family-owned investment group) </li></ul> |
+| Semi-Active Investors | This demographic includes users who invest and have an interest in finance/stocks, but do not actively trade on a daily/weekly basis. They follow the news and might trade in a "reactionary" manner, but don't allow stock market trading to consume too much of their time. | <ul><li>Richard Guang (MIT student and a member of the Sloan Business Club (SBC))</li><li>Sharil Maredia (MIT student who is politically active and stays current with the news)</li></ul>|
+| General Investors | This demographic includes users who _do_ invest, but don't really follow the news or keep up with the market trends. They generally invest in broader ETFs with minimal holdings in individual stocks. | <ul><li>Sima Asa (mother with a full-time job)</li><li>Josiah McMenamy (MIT student studying computer science)</li></ul>|
 
 ### Interview Questions [​](#interview-questions)
 
@@ -293,39 +272,19 @@ The app lowers the barrier to entry into trading, making it easier for the major
 
 #### Desired Values [​](#desired-values)
 
-Desired Value
-
-Elaboration
-
-Democratization
-
-The app should make investment knowledge more accessible to the general population, better informing the public of tactics and strategies used by successful traders.
-
-Community
-
-We hope to create a network of users that help each other to become profitable investors and improve their financial positions.
-
-Trust
-
-We must be careful that false information or nefarious schemes are not spread on the app, as this can have a significant impact on both the portfolios and the lives of our users.
+| Desired Value | Elaboration |
+| --- | --- |
+| Democratization | The app should make investment knowledge more accessible to the general population, better informing the public of tactics and strategies used by successful traders. |
+| Community | We hope to create a network of users that help each other to become profitable investors and improve their financial positions. |
+| Trust | We must be careful that false information or nefarious schemes are not spread on the app, as this can have a significant impact on both the portfolios and the lives of our users. |
 
 #### Value Tensions [​](#value-tensions)
 
-Value Tension
-
-Elaboration
-
-Democratization vs. Privacy
-
-We want to encourage users to spread sound financial advice, but many users may want to keep their portfolios private. Copy investing and public stock positions prioritize democratization over privacy.
-
-Universal Access vs. Trust
-
-The app should not amplify the opinions of some users over others, but allowing all users to become "influencers" or spread their information freely may lead to misinformation. Allowing an open forum for all users to spread investment advice would prioritize universal access over trust.
-
-Community vs. Competition
-
-Users should be encouraged first and foremost to learn about trading and finances, and competition is a great motivator. However, we also need to build a strong community between users to ensure the environment of the app does not become too toxic and push users off the app. This becomes more of an issue than most apps due to the increased mental and emotional burden of handling finances.
+| Value Tension | Elaboration |
+| --- | --- |
+| Democratization vs. Privacy | We want to encourage users to spread sound financial advice, but many users may want to keep their portfolios private. Copy investing and public stock positions prioritize democratization over privacy. |
+| Universal Access vs. Trust | The app should not amplify the opinions of some users over others, but allowing all users to become "influencers" or spread their information freely may lead to misinformation. Allowing an open forum for all users to spread investment advice would prioritize universal access over trust. |
+| Community vs. Competition | Users should be encouraged first and foremost to learn about trading and finances, and competition is a great motivator. However, we also need to build a strong community between users to ensure the environment of the app does not become too toxic and push users off the app. This becomes more of an issue than most apps due to the increased mental and emotional burden of handling finances. |
 
 #### User Experience of Values [​](#user-experience-of-values)
 
