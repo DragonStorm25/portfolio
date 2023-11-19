@@ -1,18 +1,11 @@
 ---
-title: "Project 2: Divergent Design"
+title: "Project Phase 2: Divergent Design"
 layout: doc
 outline:
   level: [2, 4]
 ---
 
-# {{ $frontmatter.title }}
-
-::: details Assignment Instructions
-
-[`Assignment Instructions`](https://61040-fa23.github.io/assignments/assignment-p2)
-
-These are the 6.1040 assignment instructions for this assignment.  It goes into greater depth about the expectations, requirements, and deliverables for this assignment.  It also includes a rubric detailing how this assignment will be graded.
-:::
+# Project Phase 2
 
 ## Team Contacts
 
@@ -35,7 +28,7 @@ Team Email: [61040-project@mit.edu](mailto:61040-project@mit.edu)
 | Fabrizzio Orderique | [porderiq@mit.edu](mailto:porderiq@mit.edu) |
 
 
-## Application Summary: Sharefolio
+## Application Summary - Sharefolio
 
 > Invest exactly like Warren Buffett without being Warren Buffett.
 
@@ -53,7 +46,7 @@ In this section, 24 features are outlined and detailed.
 
 `Portfolios` are essentially accounts that contain a certain amount of cash that a user has deposited into it and also contains a collection of assets (stocks) that the user has purchased.  Users can create multiple `Portfolios` and can deposit/withdraw cash from their `Portfolios`.  People would `Copy-Invest` other users' `Portfolios`.  Investment insights would be created for these portfolios and users would be able to view their holdings depending on the `Portfolio` they belong to.
 
-### `Leaderboards` and Rankings
+### `Leaderboard` and Rankings
 
 Sharefolio would have a `Leaderboard` of investors, ranking them based on how their portfolio performs over a given time period.  These `Leaderboards` could also be segmented into different categories/types of investors, or based on the industries a particular investor tends to specialize in.  For example, there could be a `Leaderboard` of tech stock traders, ETF traders, or energy traders.  This `Leaderboard` would be publicly viewable to all other users of the platform, and users can view ranked traders' holdings to inform their own trading decisions.
 
@@ -147,16 +140,6 @@ Users would be able to report others which prompts a further investigation from 
 
 
 ## Concept Outlines
-
-::: details What is a Concept?
-
-[From the Lecture 3 Slides](https://61040-fa23.github.io/assets/lecture-notes/L3.pdf)
-
-| Semantic | Purposive | Modular |
-| :------: | :-------: | :-----: |
-| user facing, not internal <br> not UI, but underlying function <br> behavioral not just structural | fulfills a user need <br> included for a reason <br> end-to-end, not a fragment | mutually independent <br> generic (polymorphic) <br> reusable in other apps |
-:::
-
 
 | Concept Name | Purpose | Operational Principle |
 | ------------ | ------- | --------------------- |
