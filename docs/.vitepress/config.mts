@@ -27,6 +27,10 @@ export default defineConfig({
         text: "Assignments",
         link: "/assignments",
       },
+      {
+        text: "Projects",
+        link: "/projects",
+      },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/61040-fa23" }],
