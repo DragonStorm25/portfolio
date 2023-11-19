@@ -1,8 +1,6 @@
 ---
 title: "Project Phase 2: Divergent Design"
 layout: doc
-outline:
-  level: [2, 4]
 ---
 
 # Project Phase 2
