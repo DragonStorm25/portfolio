@@ -234,16 +234,16 @@ This image is from Twitter, showing that Elon Musk’s account is verified.  Pot
 
 On our platform, there will be an AI agent icon on every page so that users can share their ideas and receive feedback/advice regarding their investment plans.  We plan to use a news-consolidating version of GPT in order to search and find related news to the stocks that a user has.
 
-![AI Agent Storyboard](../images/project/project2/storyboard/AI.jpg)
+![AI Agent Storyboard](../images/project/project2/AI.jpg)
 
 ### Portfolio
 
 Each user will have multiple `Portfolios` containing a number of different assets that they can choose to allocate.  When viewing these assets, a user can view related articles and other information about that asset that would be relevant to them.
 
-![Portfolio Storyboard](../images/project/project2/storyboard/portfolio.jpg)
+![Portfolio Storyboard](../images/project/project2/portfolio.jpg)
 
 ### Leaderboards
 
 Through the leaderboard, users can view other traders’ portfolios and `Copy-Trade` them.  Users would designate a particular quantity of money to be `Copy-Invested`, and then that money would automatically reflect the positions/holdings of the `Portfolio` it is mirroring.
 
-![Leaderboard Storyboard](../images/project/project2/storyboard/leaderboard.jpg)
+![Leaderboard Storyboard](../images/project/project2/leaderboard.jpg)
