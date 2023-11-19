@@ -24,4 +24,7 @@ features:
   - title: Assignments
     details: All of my 6.1040 assignments
     link: /assignments
+  - title: Projects
+    details: All of my 6.1040 projects
+    link: /projects
 ---
