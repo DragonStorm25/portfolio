@@ -313,5 +313,5 @@ Throughout history, information/data-transparency has empowered/enabled users to
 
 To track investors’ performance within our application, we can compare the ratio of the income of average investors to top investors. Over time, we can see how users who tend to copy-invest ultimately perform, and whether they use “leaderboards” or our GPT-based insights to determine who to copy-invest. Using the broader market as a baseline for average/nominal performance, we can see whether users of our application perform better or worse than these benchmarks, and analyze whether top performers emerge on our platform (and whether people actually copy-invest these top performers). **Conversely, we can also look at politicians who were previously excessively profitable and see if they are now less profitable.** We can measure statistics about their portfolio such as the stock market beta and delta, and see whether users are more content with their performance given this newfound and more publicly available data.
 
-Class Pitch [​](#class-pitch)
------------------------------
+### Class Pitch [​](#class-pitch)
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTUBU-B_ktkrNDpaROUUXfBr-zCW96o1gE-d7NKX6QuWUZ-upXauocLg2jW_aIqw7BQ5xmpbaSWS3_X/embed?start=false&loop=false&delayms=5000" frameborder="0" width="100%" height="424" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
