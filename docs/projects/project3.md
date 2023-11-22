@@ -1,5 +1,5 @@
 ---
-title: "Project 3: Convergent Design"
+title: "Project Phase 3: Convergent Design"
 layout: doc
 outline:
  level: [2, 4]
