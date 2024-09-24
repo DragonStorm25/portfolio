@@ -10,9 +10,6 @@ hero:
     - theme: brand
       text: GitHub
       link: "https://github.com/DragonStorm25"
-    - theme: alt
-      text: Repo for This Site
-      link: "https://github.com/61040-fa23/portfolio-DragonStorm25"
 
 features:
   - title: About Me
