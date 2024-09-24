@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Jonatan Fontanez"
-  text: ""
+  text: "Test"
   tagline: ""
   actions:
     - theme: brand
