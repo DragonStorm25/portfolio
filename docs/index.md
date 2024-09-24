@@ -21,11 +21,8 @@ features:
   - title: Blogs
     details: Blogs where I write info and progress about my projects
     link: /blogs
-  - title: Assignments
-    details: All of my 6.1040 assignments
-    link: /assignments
   - title: Projects
-    details: All of my 6.1040 projects
+    details: All of my projects
     link: /projects
   - title: Legacy
     details: Old stuff from 6.1040
