@@ -8,11 +8,11 @@ hero:
   tagline: "Storing project info"
   actions:
     - theme: brand
-      text: Repository
-      link: "https://github.com/61040-fa23/portfolio-DragonStorm25"
+      text: GitHub
+      link: "https://github.com/DragonStorm25"
     - theme: alt
-      text: Example Site
-      link: "https://61040-fa23.github.io/portfolio-adamjanicki2/"
+      text: Repo for This Site
+      link: "https://github.com/61040-fa23/portfolio-DragonStorm25"
 
 features:
   - title: About Me
@@ -27,4 +27,7 @@ features:
   - title: Projects
     details: All of my 6.1040 projects
     link: /projects
+  - title: Legacy
+    details: Old stuff from 6.1040
+    link: /legacy
 ---
