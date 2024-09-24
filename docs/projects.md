@@ -7,7 +7,7 @@ layout: doc
   import { withBase } from 'vitepress';
 </script>
 
-# Project
+# Projects
 
 <ul v-if="projects.length > 0">
   <li v-for="project of projects">
