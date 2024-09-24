@@ -25,10 +25,6 @@ export default defineConfig({
         link: "/blogs",
       },
       {
-        text: "Assignments",
-        link: "/assignments",
-      },
-      {
         text: "Projects",
         link: "/projects",
       },
