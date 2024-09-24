@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "6.1040 Portfolio",
-  description: "6.1040 Fall 2023",
+  title: " ",
+  description: "Jonatan Fontanez's Portfolio",
   base: "/portfolio-DragonStorm25/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
