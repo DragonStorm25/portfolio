@@ -6,7 +6,7 @@ layout: doc
 # Assignment 4: Backend Design & Implementation
 
 ## Abstract Data Models  
-All of these were taken from [here](/assignments/assignment3#functional-design)
+All of these were taken from [here](./assignment3#functional-design)
 
 ### User
 <details>
