@@ -11,7 +11,7 @@ layout: doc
 
 <ul v-if="blogs.length > 0">
   <li v-for="blog of blogs">
-    <a :href="withBase(blog.url)">{{ blog.frontmatter.title }}</a>
+    <a :href="withBase(blog.url)">{{ blog.frontmatter.date }}</a>
   </li>
 </ul>
 <p v-else>
