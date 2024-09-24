@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Jonatan Fontanez 6.1040 Portfolio"
-  text: "Static site"
-  tagline: "Storing project info"
+  name: "Jonatan Fontanez"
+  text: ""
+  tagline: ""
   actions:
     - theme: brand
       text: GitHub
