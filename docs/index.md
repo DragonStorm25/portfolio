@@ -12,9 +12,6 @@ hero:
       link: "https://github.com/DragonStorm25"
 
 features:
-  - title: About Me
-    details: More info about me
-    link: /about
   - title: Blogs
     details: Blogs where I write info and progress about my projects
     link: /blogs
