@@ -1,6 +1,6 @@
 ---
 title: Blog 1
-date: 10-23-2024
+date: 9-23-2024
 layout: doc
 ---
 
