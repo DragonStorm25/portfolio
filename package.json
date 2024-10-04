@@ -7,7 +7,11 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vue": "^3.3.4",
-    "vitepress": "^1.0.0-rc.4"
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.0.0-rc.4",
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
   }
 }

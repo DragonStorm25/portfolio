@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import mathjax3 from 'markdown-it-mathjax3';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -30,5 +31,10 @@ export default defineConfig({
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/61040-fa23" }],
+  },
+  markdown: {
+    config: (md) => {
+      md.use(mathjax3);
+    },
   },
 });
