@@ -21,6 +21,8 @@ ALife currently has a physics engine that calculates the forces between charged 
 
 ### Optimizations
 
+As with any program run with a large input, we want to improve the performance of the simulation to simulate more particles more efficiently. 
+
 #### Particle Interactions
 To find out the strength of two particles interacting, we must first find if the two particles are close enough to interact meaningfully. The naive method for this is for each particle, we check if it's close to every other particle. However, this is a quadratic algorithm and slows down when we want to simulate thousands or tens of thousands of particles. 
 
