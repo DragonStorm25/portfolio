@@ -17,7 +17,7 @@ ALife currently has both neutral and charged particles. It will also have bondin
 
 ### Physics
 
-ALife currently has a physics engine that calculates the forces between charged particles using Coulomb's law and applies those forces over some timestep using the [Runge-Kutta method](https://en.wikipedia.org/wiki/Runge–Kutta_methods). The interaction range between particles is also dynamic; strongly charged particles will apply forces over a larger range until the force is considered small enough to be negligible. 
+ALife currently has a physics engine that calculates the forces between charged particles using [Coulomb's law](https://en.wikipedia.org/wiki/Coulomb's_law#Mathematical_form) and applies those forces over some timestep using the [Runge-Kutta method](https://en.wikipedia.org/wiki/Runge–Kutta_methods). The interaction range between particles is also dynamic; strongly charged particles will apply forces over a larger range until the force is considered small enough to be negligible. 
 
 ### Optimizations
 
