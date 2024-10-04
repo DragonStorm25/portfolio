@@ -38,3 +38,10 @@ On the average case, this is significantly better than the naive approach. Since
 Unfortunately, if the quadtree is poorly built or points are particularly clustered, we will still have to check many point. 
 
 #### Rebuilding Quadtree
+
+When moving particles into and out of a quadtree, some quadtrees can either end up with no particles in them. This adds unnecessary steps when searching through a quadtree, as we have a quadtree whose empty list of particles is never involved in interactions. To fix this, we can rebuild the quadtree. There are two kinds of rebuilding we can do: pruning and merging.
+
+- Pruning
+If a quadtree 
+
+- Merging
