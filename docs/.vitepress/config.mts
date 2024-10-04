@@ -18,6 +18,9 @@ export default defineConfig({
         {
         text: "Projects",
         link: "/projects",
+        items: [
+            { text: "ALife", link: "/projects/alife"}
+        ]
         },
         {
             text: "Blogs",
