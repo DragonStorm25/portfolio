@@ -3,4 +3,12 @@
         font-size: 16px;
         max-width: 80%;
     }
+
+    .image-src {
+        border-radius: 50%;
+        box-sizing: border-box;
+        background-color: #DDD;
+        color: (--vp-button-alt-text);
+        border: 5px solid;
+    }
 }
