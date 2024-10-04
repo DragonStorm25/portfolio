@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: " ",
+  title: "Jonatan Fontanez",
   description: "Jonatan Fontanez's Portfolio",
   base: "/",
   themeConfig: {
