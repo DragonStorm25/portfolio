@@ -54,3 +54,14 @@ If a quadtree has no particles in it and all of its quadtree children are null (
 If a quadtree has some amount of particles in it such that it is not full, we want to move particles from its children into itself to potentially remove children quadtrees. We iterate through its immediate children and try to move one particle at a time from the children until the parent quadtree is full. Notably, we start at the first child (arbitrarily the top-left inner quadtree) and try to move all of its children, only moving on to the next quadtree if that child has no more particles we can move. We then do this recursively on each of the parents children, moving children up the tree bit by bit. We do not need multiple passes as we only stop moving particles if the parent is full. 
 
 At the end of every physics tick, we first merge and then prune the root quadtree. This keeps the total number of quadtrees at a minimum, ensuring any searching or iteration through the quadtree is as fast as possible. This merging and pruning takes very little time compared to almost any other operation we perform on quadtrees, like searching or iteration, so the cost of doing it is well worth the reward.
+
+### Rendering
+
+To actually see the results of the particle simulation, they must be drawn onto the screen. This is currently done using a JPanel whose paintComponent method is overriden to draw particles and (optionally) a representation of the quadtree. The user can also drag the camera around and zoom in and out.
+
+The rendering will need to support some kind of UI in the future to 
+
+- add, move, and delete particles
+- create, save, and load molecules
+- show debug profiling information
+- show how long the simulation has been running (both in-simulation time and real time)
