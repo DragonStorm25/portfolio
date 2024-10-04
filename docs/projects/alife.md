@@ -5,6 +5,8 @@ layout: doc
 
 # {{ $frontmatter.title }}
 
+### [GitHub Repo](https://github.com/DragonStorm25/ALife)
+
 ## Goal
 
 To create a particle simulation that runs on a modified version of physics and chemistry, with some inspiration taken from real life, than can model analogues to real life organic compounds, like phospholipids and amino acids. 
