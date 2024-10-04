@@ -42,6 +42,6 @@ Unfortunately, if the quadtree is poorly built or points are particularly cluste
 When moving particles into and out of a quadtree, some quadtrees can either end up with no particles in them. This adds unnecessary steps when searching through a quadtree, as we have a quadtree whose empty list of particles is never involved in interactions. To fix this, we can rebuild the quadtree. There are two kinds of rebuilding we can do: pruning and merging.
 
 - Pruning
-If a quadtree 
+If a quadtree has no particles in it and all of its quadtree children are null (do not exist), we can remove that quadtree from the total structure. This can be done by telling its parent to set that child to null. If a quadtree has children that are not null (they exist and have not been removed), we can recursively check their children and see if one of them needs to be pruned. Notably, we recurse first and check after to make sure the tree is pruned  bottom-up in a single pass, rather than top-down in multiple passes.
 
 - Merging
