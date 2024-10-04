@@ -15,9 +15,9 @@ To create a particle simulation that runs on a modified version of physics and c
 
 ### Particles
 
-ALife currently has both neutral and charged particles. 
+ALife currently has both neutral and charged particles, both with a position, velocity, and mass. 
 
-It will also have bonding behavior between various atomic particles, resulting in molecules formed of these atoms.
+It will also have bonding behavior between various atomic particles, resulting in molecules formed of these atoms. This behavior will be similar to how real life atoms bond, but with much simpler physics to reduce the computational complexity that would result from doing quantum mechanics. 
 
 ### Physics
 
