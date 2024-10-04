@@ -14,12 +14,12 @@ I'm interested in theoretical computer science, algorithms, and data structures 
       link: "https://github.com/DragonStorm25"
 
 features:
-  - title: Blogs
-    details: Blogs where I write info and progress about my projects
-    link: /blogs
   - title: Projects
     details: All of my projects
     link: /projects
+  - title: Blogs
+    details: Blogs where I write info and progress about my projects
+    link: /blogs
   - title: Legacy
     details: Old stuff from 6.1040
     link: /legacy
