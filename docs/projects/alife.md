@@ -39,7 +39,7 @@ On the average case, this is significantly better than the naive approach. Since
 | Approach | Time complexity (worst case) | Time complexity (average case) |
 | ---- | ---- | ---- | 
 | Naive (checking all pairs) | $O(n^2)$ | $O(n^2)$ |
-| Quadtree | $O(n^2)$ | $O(n \log n)$ |
+| Quadtree (bounding box rough search) | $O(n^2)$ | $O(n \log n)$ |
 
 Unfortunately, if the quadtree is poorly built or points are particularly clustered, we will still have to check many point. 
 
