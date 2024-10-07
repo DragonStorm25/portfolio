@@ -1,6 +1,8 @@
 ---
 layout: doc
-prev: false
+prev: 
+    text: "Home"
+    link: "/"
 next: false
 ---
 
