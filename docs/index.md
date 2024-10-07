@@ -13,12 +13,9 @@ I'm interested in theoretical computer science, algorithms, and data structures 
     - theme: brand
       text: Resume
       link: "https://docs.google.com/document/d/1IdqIP3UAPFDYvco8ZtVDvMvFW7WhbmeFeZ49-DNnnjM/edit?usp=sharing"
-    - theme: alt
+    - theme: brand
       text: Contact
       link: /contact
-    - theme: alt
-      text: GitHub
-      link: "https://github.com/DragonStorm25"
 
 features:
   - title: Projects
