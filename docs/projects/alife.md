@@ -25,6 +25,7 @@ ALife currently has a physics engine that calculates the forces between charged 
 
 ![Visualization of Coulomb's law between two particles](./images/alife/Coulombslawgraph.svg.png){.invertible .center}
 <span class="center">*Visualization of Coulomb's law between two particles*</span>
+<span class="center p0">*Image taken from [here](https://commons.wikimedia.org/wiki/File:Coulombslawgraph.svg), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)*</span>
 
 The interaction range between particles is also dynamic; strongly charged particles will apply forces over a larger range until the force is considered small enough to be negligible. 
 
