@@ -23,6 +23,8 @@ It will also have bonding behavior between various atomic particles, resulting i
 
 ALife currently has a physics engine that calculates the forces between charged particles using [Coulomb's law](https://en.wikipedia.org/wiki/Coulomb's_law#Mathematical_form) and applies those forces over some timestep using the [Runge-Kutta method](https://en.wikipedia.org/wiki/Runge–Kutta_methods). The interaction range between particles is also dynamic; strongly charged particles will apply forces over a larger range until the force is considered small enough to be negligible. 
 
+<img class="invertible" src="./images/alife/Coulombslawgraph.svg.png" alt="Visualization of Coulomb's law between two particles">
+
 The physics engine will need to support the mechanics of molecular bonds, including the forces holding the molecules together and partial charges that form over a molecule. 
 
 ### Optimizations
