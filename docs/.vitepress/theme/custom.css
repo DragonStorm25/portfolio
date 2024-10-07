@@ -22,3 +22,7 @@ html.dark .invertible {
     display: block;
     text-align: center;
 }
+
+.p0 {
+    font-size: 0.8em;
+}
