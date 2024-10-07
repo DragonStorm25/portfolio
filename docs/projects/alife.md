@@ -71,7 +71,7 @@ At the end of every physics tick, we first merge and then prune the root quadtre
 
 To actually see the results of the particle simulation, they must be drawn onto the screen. This is currently done using a JPanel whose paintComponent method is overriden to draw particles and (optionally) a representation of the quadtree. The user can also drag the camera around and zoom in and out.
 
-![Snapshot of 10k particles](./images/alife/Screenshot%202024-10-06%20at%208.41.37%20PM.png)
+![Snapshot of 10k particles](./images/alife/10kparticles.png)
 <span class="center">*Snapshot of 10,000 charged particles, with quadtree drawing enabled*</span>
 
 #### Future Work
