@@ -12,3 +12,7 @@
         border: 5px solid;
     }
 }
+
+html.dark .invertible {
+    filter: grayscale(1) invert(1);
+}
