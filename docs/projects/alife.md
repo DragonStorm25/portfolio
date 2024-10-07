@@ -23,7 +23,8 @@ It will also have bonding behavior between various atomic particles, resulting i
 
 ALife currently has a physics engine that calculates the forces between charged particles using [Coulomb's law](https://en.wikipedia.org/wiki/Coulomb's_law#Mathematical_form) and applies those forces over some timestep using the [Runge-Kutta method](https://en.wikipedia.org/wiki/Runge–Kutta_methods). 
 
-![Visualization of Coulomb's law between two particles](./images/alife/Coulombslawgraph.svg.png){.invertible}
+![Visualization of Coulomb's law between two particles](./images/alife/Coulombslawgraph.svg.png){.invertible .center}
+<span class="center">*Visualization of Coulomb's law between two particles*</span>
 
 The interaction range between particles is also dynamic; strongly charged particles will apply forces over a larger range until the force is considered small enough to be negligible. 
 
