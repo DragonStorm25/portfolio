@@ -17,6 +17,8 @@ To create a particle simulation that runs on a modified version of physics and c
 
 ALife currently has both neutral and charged particles, both with a position, velocity, and mass. 
 
+#### Future Work
+
 It will also have bonding behavior between various atomic particles, resulting in molecules formed of these atoms. This behavior will be similar to how real life atoms bond, but with much simpler physics to reduce the computational complexity that would result from doing quantum mechanics. 
 
 ### Physics
@@ -28,6 +30,8 @@ ALife currently has a physics engine that calculates the forces between charged 
 <span class="center p0">*Image taken from [here](https://commons.wikimedia.org/wiki/File:Coulombslawgraph.svg), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)*</span>
 
 The interaction range between particles is also dynamic; strongly charged particles will apply forces over a larger range until the force is considered small enough to be negligible. 
+
+#### Future Work
 
 The physics engine will need to support the mechanics of molecular bonds, including the forces holding the molecules together and partial charges that form over a molecule. 
 
@@ -69,6 +73,8 @@ To actually see the results of the particle simulation, they must be drawn onto 
 
 ![Snapshot of 10k particles](./images/alife/Screenshot%202024-10-06%20at%208.41.37%20PM.png)
 <span class="center">*Snapshot of 10,000 charged particles, with quadtree drawing enabled*</span>
+
+#### Future Work
 
 The rendering will need to support some kind of UI in the future to 
 
