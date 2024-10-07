@@ -16,3 +16,9 @@
 html.dark .invertible {
     filter: grayscale(1) invert(1);
 }
+
+.center {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
